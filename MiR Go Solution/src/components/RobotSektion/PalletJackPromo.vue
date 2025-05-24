@@ -50,6 +50,7 @@
     
 </section>
 <section class="promoWrapperCase">
+
     <div class="promoContent">
         <div class="promoImage">
             <div class="imageWrapper">
@@ -60,9 +61,16 @@
             <div class="labelWrapper">
                 <span class="label label--light" aria-label="Label: Cases">Cases</span>
             </div>
+            <div class="promoTitle">
+                <p>AMR'er er omkostningseffektive, sikre og fleksible at implementere - og de gør automatisering nemmere end nogensinde</p>
+            </div>
+            <div class="linkWrapper">
+                <a href="/da/cases">Udforsk case</a>
+            </div>
         </div>
 
     </div>
 
 </section>
+
 </template>

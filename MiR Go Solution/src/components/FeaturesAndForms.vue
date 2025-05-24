@@ -1,4 +1,5 @@
-<script>
+<script setup>
+import formImg from 'form.png'
 </script>
 <template>
 <section >
@@ -66,16 +67,22 @@
             <div class="formInformation">
                 <div class="formHeadline">
                     <h2>Vores MiR-partnere er placeret mere end 250 steder rundt om i verden</h2>
-                    <div class="form body">
+                    
+                </div>
+                <div class="form body">
                         <p>Udfyld formularen, og bliv kontaktet af det lokale MiR-team.</p>
-                    </div>
+                   
                     <h3>
                         <b>Brug for hjælp eller teknisk support?</b>
                     </h3>
                 </div>
+                <div class="linkWrapper">
+                    <a href="/da/service-support/mir-service-aktivering">Få mere at vide om MiR's servicemuligheder</a>
+                </div>
+
             </div>
             <div class="formScript">
-
+                <img :src="formImg" alt="Formular billede" />
             </div>
         </div>
     </div>

@@ -87,25 +87,6 @@
 
     </div>
 </section>
-<section class="palletJackPromo">
-    <div>
-        <div class="promoWrapper">
-            <div class="promoContent">
-                <div class="promoVideo">
-                    <div class="palletJackMediaWrap">
-                        <div class="PalletJackLink">
-                            <a href="/da/produkter/robotter/mir1200-pallet-jack"></a>
-
-                        </div>
-
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </div>
-    
-</section>
 </template>
 <style>
 </style>
