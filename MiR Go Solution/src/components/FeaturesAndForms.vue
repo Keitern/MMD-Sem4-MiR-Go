@@ -1,5 +1,5 @@
 <script setup>
-import formImg from 'form.png'
+import formImage from '../assets/form.png'
 </script>
 <template>
 <section >
@@ -82,7 +82,7 @@ import formImg from 'form.png'
 
             </div>
             <div class="formScript">
-                <img :src="formImg" alt="Formular billede" />
+                <img :src="formImage" alt="Formular billede" />
             </div>
         </div>
     </div>
