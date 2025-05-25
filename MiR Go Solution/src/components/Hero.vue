@@ -30,4 +30,38 @@
     
 </template>
 <style>
+.hero-wrapper{
+    background-color: #effafe;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 30px;
+    width: 100%;
+}
+.hero-content{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr auto;
+    max-height: 100%;
+    overflow-x: clip;
+    position: relative;
+    background-color: red;
+}
+.hero-top{
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    grid-area: 2;
+    height: 100%;
+    justify-content: center;
+    padding: 30px;
+    width: 100%;
+    background-color: beige;
+}
+.hero-video{
+    grid-area: 1 / 1 / 2 / 5;
+    height: auto;
+    width: 100%;
+    background-color: #effafe;
+}
 </style>
