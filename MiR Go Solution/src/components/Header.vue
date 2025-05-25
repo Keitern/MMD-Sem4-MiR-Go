@@ -10,7 +10,8 @@
                         <img src="https://mobile-industrial-robots.com/logo/mir-main-logo.svg" alt="logo">
                     </a>
                 </div>
-                <div class="mainNavigation">
+                <div class="mainNavigationItems">
+                    <ul class="mainNavItems">
                 <li>
                 <div class="linkWrapper">
                     <a href="produkter">Produkter</a>
@@ -41,6 +42,7 @@
                     <a href="kontakt">Kontakt</a>
                 </div>
             </li>
+            </ul>
                 </div>
                 <div class="secondNavigation">
                     <button class="navDropDownB">service and support
@@ -64,22 +66,87 @@
 </section>
 </template>
 <style>
-.mainNavigation{
-    background-color: #fff;
+.headerWrapper{
+        background-color: #fff;
     height: 72px;
-    left: 0px;
-    padding-bottom:15px;
-   position: relative;
+    left: 0;
+    padding-bottom: 15px;
+    position: fixed;
+    right: 0;
+    top: 0;
+    transition: transform .3s ease-in-out;
+    z-index: 99;
+}
+.mainNavigation{
+   box-sizing: border-box;
 
 }
 .navWrapper{
-   float: left;
-   display: block;
-    margin-top: 15px;
-    flex-direction: row;
+   display:flex; 
+   background-color: red;
+   flex-direction: row;
+   justify-content: space-between;
+   margin: auto;
+   gap: 0;
+   align-items: center;
+   max-width: 984px;
+
+   
+}
+.mainNavigationItems{
+    display: flex;
     align-items: center;
-    gap:0;
+    flex-direction:row;
     justify-content: space-between;
+    gap: 30px;
+    padding-left: 30px;
+    white-space:nowrap;
+    background-color: blue;
+    width: 100%;
     
 }
+.mainNavItems{
+    display: flex;
+    justify-content: space-between;
+    flex-direction:row;
+    align-items: center;
+    background-color: aqua;
+    list-style: none;
+    padding: 10px 10px 10px 30px;
+}
+.linkWrapper{
+    display: flex;
+    background-color:burlywood;
+    margin: 10px;
+    align-items: center;
+    font: 14px "Open Sans", sans-serif;
+
+    
+}
+.linkWrapper a{
+   background-color: transparent;
+    display: inline-block;
+    margin: -10px;
+    padding: 10px;
+    pointer-events: auto;
+    position: relative;
+    background-color: yellowgreen;
+}
+.secondNavigation{
+background-color: aqua;
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: space-between;
+gap: 15px;
+}
+.navDropDownB{
+    font-size: .875rem;
+    font-weight: 300;
+    min-width: max-content;
+}
+    
+
+
+
 </style>
