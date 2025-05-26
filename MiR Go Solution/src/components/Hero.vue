@@ -4,9 +4,6 @@
     <section class="hero">
         <div class="hero-wrapper">
                 <div class="hero-content">
-                    <video autoplay muted loop playsinline class="hero__video">
-                        <source src="https://a.storyblok.com/f/230581/x/03a56553f1/hero-runnercase.mp4" type="video/mp4" />
-                    </video>
                     <div class="hero-top">
                         <div class="hero-elements">
                             <div class="hero-headline">
@@ -21,8 +18,18 @@
                         </div>
             
                     </div>
-
+            <div class="hero-video">
+                <div class="hero-gradient">    
+                    <div class="hero-video-video">
+                        <div class="video-wrapper">
+                            <video autoplay muted loop playsinline>
+                                <source src="https://a.storyblok.com/f/230581/x/03a56553f1/hero-runnercase.mp4" type="video/mp4" />
+                            </video>
+                        </div>
+                    </div>    
                 </div>
+            </div>
+        </div>
 
             
         </div>
@@ -31,7 +38,6 @@
 </template>
 <style>
 .hero-wrapper{
-    background-color: #effafe;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -40,28 +46,81 @@
 }
 .hero-content{
     display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr auto;
+ grid-template-columns: 1fr 984px 1fr;
     max-height: 100%;
     overflow-x: clip;
     position: relative;
     background-color: red;
+    height: 600px;
+   
 }
 .hero-top{
-    align-items: flex-start;
+  grid-area: auto;
+     grid-area: auto;
+  left: 0;
+  margin-left: 30px;
+  padding: 0;
+  position: absolute;
+  top: 0;
+  z-index: 3;
+    }
+
+.hero-elements{
     display: flex;
     flex-direction: column;
-    grid-area: 2;
-    height: 100%;
+    gap: 30px;
     justify-content: center;
-    padding: 30px;
+    text-align: center;
     width: 100%;
-    background-color: beige;
+    color: black;
+    align-items:center;
+    align-content: center;
+    max-width: 45%;
+    text-align: left;
+    
 }
+
+.hero-headline{
+     font-size: 16px;
+    line-height: 36px;
+  font-family: "Oscine", sans-serif;
+  font-weight: 300;
+}
+
 .hero-video{
     grid-area: 1 / 1 / 2 / 5;
     height: auto;
     width: 100%;
-    background-color: #effafe;
+    background-color: #22c04c;
+}
+
+.hero-gradient{
+    background: linear-gradient(90deg, #effafe 0, rgba(249, 253, 255, .75) 45%, transparent 70%), linear-gradient(270deg, #effafe 0, transparent 35%), linear-gradient(180deg, #effafe 0, transparent 25%), linear-gradient(0deg, #effafe 0, transparent 25%);
+        height: 100%;
+        left: 0;
+        position: absolute;
+        top: 0;
+        width: 100%;
+        z-index: 2;
+        background-color: #17d6e4;
+}
+
+.video-wrapper{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    background-color: yellow;
+}
+.video-wrapper video{
+    height: auto;
+    outline: 4px solid #effafe;
+    outline-offset: -4px;
+    position: relative;
+    width: 100%;
+    z-index: 0;
+    background-color: violet;
 }
 </style>

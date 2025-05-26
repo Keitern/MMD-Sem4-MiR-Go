@@ -143,42 +143,8 @@ gap: 15px;
 .navDropDownB{
     font-size: .875rem;
     font-weight: 300;
-    min-width: max-content;
-    padding: 10px 15px;
+    min-width: ma;
 }
-.navDropDownB img{
-    height: 10px;
-    margin-left: .5rem;
-    pointer-events: none;
-    width: 10px;
-}
-.searchIcon{
-    align-items: center; 
-    display: flex;
-    height: 40px;
-    justify-content: center;
-    width: 40px;
-    padding: 1em;
-  aspect-ratio: 1 / 1;
-  border-radius: 50%;
-}
-.navSearchWrapper img{
-    width: 20px;
-    height: 20px;
-    box-sizing: border-box;
-}
-.portalSwitch{
-    align-items: center; 
-    display: flex;
-    height: 40px;
-    justify-content: center;
-    width: 40px;
-    padding: 1em;
-  aspect-ratio: 1 / 1;
-  border-radius: 50%;
-
-}
-
     
 
 
