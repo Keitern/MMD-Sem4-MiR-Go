@@ -9,7 +9,8 @@
                     <p>Intern transport og materialehåndtering spiller en afgørende rolle for logistiksucces.
                     De autonome mobile robotter (AMR'er) fra MiR kan problemfrit optimere disse arbejdsgange.
                     </p>
-                    <div class="cardCards">
+            </div>
+            <div class="cardCards">
                         <a href="/da/produkter/robotter/mir250">
                             <div class="card-wrapper">
                                 <div class="cardCard">
@@ -28,9 +29,10 @@
                                             </video>
                                     </div>
                                     </div>
-                                    <div class="cardHeadline">mir250</div>
-                                    <p>Agil og hurtigt flytter op til 250 kilo</p>
+                                   
                                 </div>
+                                <div class="cardHeadline">MIR250</div>
+                                <p>Agil og hurtigt flytter op til 250 kilo</p>
                             </div>
                         </a>   
                         <a href="/da/produkter/robotter/mir600">
@@ -52,9 +54,10 @@
                                     </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="cardHeadline">mir600</div>
-                                    <p>Flytter paller på 600kg 2 m/sek </p>
+                                <div class="cardHeadline">MIR600</div>
+                                <p>Flytter paller på 600kg 2 m/sek </p>
+                        </div>
+                           
                             
                         </a>
                         <a href="/da/produkter/robotter/mir1350">
@@ -82,11 +85,60 @@
                             </div>
                         </a>
                     </div>
-            </div>
         </div>
 
     </div>
 </section>
 </template>
 <style>
+.CardDisplayWrap{
+    max-width: 984px;
+    padding: 30px 0 0 30px;
+    background-color:brown;
+}
+.CardContent{
+display: flex;
+flex-direction: column;
+max-width: 499px;
+text-align: left;
+align-items: left;
+background-color: aquamarine;
+
+}
+.CardContent h2{
+   
+}
+.cardCards{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+background-color: black;
+
+}
+
+.cardCards p{
+    display: flex;
+    padding-left:15px;
+    color:#0c0931;
+    font-weight: 300;
+}
+.cardHeadline{
+    font-size: 22px;
+  color: #0c0931;
+font-family: Oscine, sans-serif;
+font-weight: 700;
+display: flex;
+padding-left:15px;
+}
+.card-wrapper{
+background-color: bisque;
+width: 328px;
+}
+.card-wrapper:hover{
+    border-radius: .4rem;
+    display: grid;
+    height: 100%;
+   box-shadow: 0 0 15px #cbeefa;
+    transition: box-shadow .3s ease;
+}
 </style>
