@@ -19,7 +19,7 @@
             
                     </div>
             <div class="hero-video">
-                <div class="hero-gradient">    
+                <div class="hero-gradient"> </div>   
                     <div class="hero-video-video">
                         <div class="video-wrapper">
                             <video autoplay muted loop playsinline>
@@ -27,7 +27,7 @@
                             </video>
                         </div>
                     </div>    
-                </div>
+                
             </div>
         </div>
 
@@ -45,6 +45,7 @@
     width: 100%;
 }
 .hero-content{
+    top: 30px;
     display: grid;
  grid-template-columns: 1fr 984px 1fr;
     max-height: 100%;
@@ -55,53 +56,56 @@
    
 }
 .hero-top{
-  grid-area: auto;
      grid-area: auto;
   left: 0;
   margin-left: 30px;
-  padding: 0;
   position: absolute;
   top: 0;
-  z-index: 3;
+  z-index: 2;
+  top: 100px;
     }
 
 .hero-elements{
     display: flex;
     flex-direction: column;
-    gap: 30px;
-    justify-content: center;
+    gap: 15px;
+    justify-content: flex-start;
     text-align: center;
     width: 100%;
     color: black;
     align-items:center;
     align-content: center;
-    max-width: 45%;
+    max-width: 60%;
     text-align: left;
     
 }
 
-.hero-headline{
-     font-size: 16px;
-    line-height: 36px;
-  font-family: "Oscine", sans-serif;
-  font-weight: 300;
+.hero-headline h1{
+    
+ 
+color: #0c0931;
+font-family: Oscine, sans-serif;
+font-size: 44px;
+font-weight: 300;
+line-height: 52px;
 }
 
 .hero-video{
-    grid-area: 1 / 1 / 2 / 5;
+    grid-area: 1 / 1 / 3 / 4;
     height: auto;
     width: 100%;
     background-color: #22c04c;
 }
 
 .hero-gradient{
+    opacity: .5;
     background: linear-gradient(90deg, #effafe 0, rgba(249, 253, 255, .75) 45%, transparent 70%), linear-gradient(270deg, #effafe 0, transparent 35%), linear-gradient(180deg, #effafe 0, transparent 25%), linear-gradient(0deg, #effafe 0, transparent 25%);
         height: 100%;
         left: 0;
         position: absolute;
         top: 0;
         width: 100%;
-        z-index: 2;
+        z-index: 1;
         background-color: #17d6e4;
 }
 
@@ -115,6 +119,7 @@
     background-color: yellow;
 }
 .video-wrapper video{
+    
     height: auto;
     outline: 4px solid #effafe;
     outline-offset: -4px;
