@@ -74,3 +74,24 @@
 </section>
 
 </template>
+<style>
+.promoWrapper{
+    margin: auto;
+    max-width: 984px;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.promoContent{
+    display: grid;
+    grid-template-columns: 1fr 984px 1fr;
+    background-color: blueviolet;
+
+}
+.promoVideo{
+    display: flex;
+    flex-direction: row;
+    margin: 0px 328px 0px 0px;
+    background-color: aqua;
+}
+</style>
