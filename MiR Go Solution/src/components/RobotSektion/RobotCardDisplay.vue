@@ -105,9 +105,7 @@ align-items: left;
 background-color: aquamarine;
 
 }
-.CardContent h2{
-   
-}
+
 .cardCards{
 display: flex;
 flex-direction: row;
