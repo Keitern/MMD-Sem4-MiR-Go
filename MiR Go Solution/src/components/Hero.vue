@@ -43,6 +43,7 @@
     justify-content: center;
     margin-bottom: 30px;
     width: 100%;
+    width: 1150px;
 }
 .hero-content{
     top:30px;

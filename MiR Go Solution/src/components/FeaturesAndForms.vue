@@ -100,9 +100,7 @@ max-width: 1410px;
    flex-direction: column;
    text-align: left;
 }
-.featuresHeadline{
-  
-}
+
 .featuresBody{
     max-width: 574px;
 }
@@ -120,6 +118,7 @@ align-content: flex-start;
 .formInformation{
     width: 410px;
 }
+
 .featuresElements{
     display: grid;
     grid-template-columns: repeat(5,196px);

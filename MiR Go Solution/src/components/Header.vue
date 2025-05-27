@@ -7,7 +7,7 @@
             <div class="navWrapper">
                 <div class="mirLinkLogo">
                     <a href="/da">
-                        <img src="https://mobile-industrial-robots.com/logo/mir-main-logo.svg" alt="logo">
+                        <img src="https://mobile-industrial-robots.com/logo/mir-main-logo.svg"width="101" height="45" alt="logo">
                     </a>
                 </div>
                 <div class="mainNavigationItems">
@@ -67,7 +67,8 @@
 </template>
 <style>
 .headerWrapper{
-        background-color: #fff;
+    display: flex;
+        background-color: #1de40a;
     height: 72px;
     left: 0;
     padding-bottom: 15px;
@@ -76,13 +77,14 @@
     top: 0;
     transition: transform .3s ease-in-out;
     z-index: 99;
+    justify-content: center;
 }
+
 .mainNavigation{
    box-sizing: border-box;
-
 }
 .navWrapper{
-   display:flex; 
+    display: flex;
    background-color: red;
    flex-direction: row;
    justify-content: space-between;
@@ -90,8 +92,22 @@
    gap: 0;
    align-items: center;
    max-width: 984px;
+   max-height: 50px;
+   width: 984px;
+   margin-top:15px;
+
 
    
+}
+.mirLinkLogo{
+display: flex;
+width: 83.285px;
+height: 37px;
+justify-content: center;
+align-items: center;
+flex-shrink: 0;
+box-sizing: border-box;
+
 }
 .mainNavigationItems{
     display: flex;
@@ -103,6 +119,8 @@
     white-space:nowrap;
     background-color: blue;
     width: 100%;
+    max-height: 40px;
+
     
 }
 .mainNavItems{
@@ -143,7 +161,7 @@ gap: 15px;
 .navDropDownB{
     font-size: .875rem;
     font-weight: 300;
-    min-width: ma;
+white-space: nowrap;
 }
     
 
