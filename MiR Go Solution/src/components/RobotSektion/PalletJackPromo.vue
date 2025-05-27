@@ -31,7 +31,7 @@
                         <div class="palletJackMediaWrapContent">
                             <h3 class="cardHeadline">MiR1200 Pallet Jack</h3>
                             <p>Flyt automatisk paller på op til 1200 kg</p>
-                        </div>                   
+                        </div>                
                     </div>
                 </div>
                 <div class="promoText">
@@ -51,13 +51,13 @@
 </section>
 <section class="promoWrapperCase">
 
-    <div class="promoContent">
+    <div class="promoContentCase">
         <div class="promoImage">
             <div class="imageWrapper">
                 <img src="https://a.storyblok.com/f/230581/4000x2667/0ea28dc3b7/logimat_pallet-jack_1.jpg/m/fit-in/1920x1080/filters:format(webp)" alt="">
             </div>
         </div>
-        <div class="promoText">
+        <div class="promoTextCase">
             <div class="labelWrapper">
                 <span class="label label--light" aria-label="Label: Cases">Cases</span>
             </div>
@@ -75,23 +75,92 @@
 
 </template>
 <style>
+/*her fra kun jack*/
 .promoWrapper{
-    margin: auto;
+   padding:0px 0px 0px 30px;
     max-width: 984px;
     display:flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content:center;
 }
 .promoContent{
+    width: 984px;
+    height: 567px;
     display: grid;
-    grid-template-columns: 1fr 984px 1fr;
     background-color: blueviolet;
-
+    grid-template-columns: repeat(4,246px);
+ grid-template-rows: repeat(4,126px);
 }
 .promoVideo{
-    display: flex;
-    flex-direction: row;
-    margin: 0px 328px 0px 0px;
-    background-color: aqua;
+     grid-area: 1/1/4/4;
 }
+.promoText{
+    grid-area: 2/4/3/4;
+    padding-top:50px;
+}
+.palletJackMediaWrap{
+    display: grid;
+     grid-template-columns: repeat(3,208px);
+     grid-template-rows: repeat(3,157px)
+}
+.palletJackMediaInnerWrap{
+grid-area: 1/1/3/5;
+background-color: aqua;
+    
+}
+
+.palletJackMediaWrapContent{
+grid-area:2/1/2/3;
+display: flex;
+flex-direction: column;
+background-color: black;
+z-index: 1;
+text-align: left;
+padding-top: 40px;
+
+}
+.palletJackMediaWrapContent h3{
+    background-color: beige;
+    margin: 0;
+}
+/* her fra kun case */
+.promoContentCase{
+    max-width: 1418px;
+    max-height: 561px;
+    justify-items: left;
+    background-color: blue;
+    display: grid;
+    grid-template-columns:repeat(8,177px);
+    grid-template-rows: repeat(4, 110px);
+    
+}
+.promoImage{
+    grid-area:1/1/2/3;
+}
+.promoTextCase{
+    grid-area: 2/6/3/8;
+    text-align: left;
+
+}
+.promoTextCase P{
+font-size: 22px;
+  color: #0c0931;
+font-family: Oscine, sans-serif;
+}
+.labelWrapper{
+        border-radius: 3px;
+    display: inline-block;
+    font-family: OpenSans, sans-serif;
+    font-size: .75rem;
+    height: 27px;
+    line-height: 27px;
+    padding: 0 10px;
+}
+.imageWrapper img{
+    width: 820px;
+    height: 440px;
+    overflow: none;
+}
+
+
 </style>

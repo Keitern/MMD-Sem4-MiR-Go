@@ -6,7 +6,7 @@ import formImage from '../assets/form.png'
     <div class="featuresWrapper">
         <div class="featuresContent">
             
-        </div>
+       
         <div class="featuresHeadline">
             <h2>Du kan stole på os</h2>       
         </div>
@@ -54,7 +54,7 @@ import formImage from '../assets/form.png'
                 <p class="elementHeadline">Tilgængelighed</p>
                 <p class="elementBody">MiR Service tilbyder tilgængelighed 24/7, når du har brug for os.</p>
             </div>
-
+        </div>
 
         </div>
 
@@ -90,4 +90,53 @@ import formImage from '../assets/form.png'
 </section>
 </template>
 <style>
+
+.featuresWrapper{
+max-height: 485px;
+max-width: 1410px;
+}
+.featuresContent{
+    display: flex;
+   flex-direction: column;
+   text-align: left;
+}
+.featuresHeadline{
+  
+}
+.featuresBody{
+    max-width: 574px;
+}
+.formsWrapper{
+max-height: auto;
+max-width: 1410px;
+}
+.formContent{
+
+width: 984px;
+display: flex;
+text-align: left;
+align-content: flex-start;
+}
+.formInformation{
+    width: 410px;
+}
+.featuresElements{
+    display: grid;
+    grid-template-columns: repeat(5,196px);
+    gap: 30px  ;
+}
+.featuresElement{
+margin: 10px;
+max-width:600px;
+min-width: 164px;
+word-wrap: break-word;
+}
+.elementHeadline{
+    font-weight: 600;
+}
+.formScript{
+    width: 492px;
+    height: 1308px;
+    
+}
 </style>
