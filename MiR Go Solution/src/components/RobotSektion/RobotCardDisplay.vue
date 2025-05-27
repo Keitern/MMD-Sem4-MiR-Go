@@ -95,6 +95,7 @@
     max-width: 984px;
     padding: 30px 0 0 30px;
     background-color:brown;
+    padding-left: 10%;
 }
 .CardContent{
 display: flex;

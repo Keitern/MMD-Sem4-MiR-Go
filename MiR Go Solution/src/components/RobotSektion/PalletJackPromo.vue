@@ -82,8 +82,10 @@
     display:flex;
     flex-direction: row;
     justify-content:center;
+    padding-left: 10%;
 }
 .promoContent{
+    
     width: 984px;
     height: 567px;
     display: grid;

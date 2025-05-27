@@ -94,6 +94,7 @@ import formImage from '../assets/form.png'
 .featuresWrapper{
 max-height: 485px;
 max-width: 1410px;
+padding-left: 10%;
 }
 .featuresContent{
     display: flex;
@@ -107,6 +108,7 @@ max-width: 1410px;
 .formsWrapper{
 max-height: auto;
 max-width: 1410px;
+padding-left: 10%;
 }
 .formContent{
 

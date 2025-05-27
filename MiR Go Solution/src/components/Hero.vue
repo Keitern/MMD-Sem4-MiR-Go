@@ -44,6 +44,7 @@
     margin-bottom: 30px;
     width: 100%;
     width: 1150px;
+    padding-left: 8%;
 }
 .hero-content{
     top:30px;
