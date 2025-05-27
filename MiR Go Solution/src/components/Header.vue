@@ -68,7 +68,7 @@
 <style>
 .headerWrapper{
     display: flex;
-        background-color: #1de40a;
+        background-color: #fff;
     height: 72px;
     left: 0;
     padding-bottom: 15px;
@@ -85,7 +85,7 @@
 }
 .navWrapper{
     display: flex;
-   background-color: red;
+   background-color: #fff;
    flex-direction: row;
    justify-content: space-between;
    margin: auto;
@@ -117,7 +117,7 @@ box-sizing: border-box;
     gap: 30px;
     padding-left: 30px;
     white-space:nowrap;
-    background-color: blue;
+    background-color:#fff;
     width: 100%;
     max-height: 40px;
 
@@ -128,13 +128,13 @@ box-sizing: border-box;
     justify-content: space-between;
     flex-direction:row;
     align-items: center;
-    background-color: aqua;
+    background-color: #fff;
     list-style: none;
     padding: 10px 10px 10px 30px;
 }
 .linkWrapper{
     display: flex;
-    background-color:burlywood;
+    background-color:#fff;
     margin: 10px;
     align-items: center;
     font: 14px "Open Sans", sans-serif;
@@ -148,10 +148,10 @@ box-sizing: border-box;
     padding: 10px;
     pointer-events: auto;
     position: relative;
-    background-color: yellowgreen;
+    background-color:#fff;
 }
 .secondNavigation{
-background-color: aqua;
+background-color: #fff;
 display: flex;
 flex-direction: row;
 align-items: center;

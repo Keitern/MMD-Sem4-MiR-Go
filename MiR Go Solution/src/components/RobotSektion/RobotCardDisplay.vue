@@ -94,7 +94,7 @@
 .CardDisplayWrap{
     max-width: 984px;
     padding: 30px 0 0 30px;
-    background-color:brown;
+    background-color:transparent;
     padding-left: 10%;
 }
 .CardContent{
@@ -103,7 +103,7 @@ flex-direction: column;
 max-width: 499px;
 text-align: left;
 align-items: left;
-background-color: aquamarine;
+background-color: transparent;
 
 }
 
@@ -111,7 +111,7 @@ background-color: aquamarine;
 display: flex;
 flex-direction: row;
 justify-content: space-between;
-background-color: black;
+background-color: transparent;
 
 }
 
@@ -130,7 +130,7 @@ display: flex;
 padding-left:15px;
 }
 .card-wrapper{
-background-color: bisque;
+background-color: transparent;
 width: 328px;
 }
 .card-wrapper:hover{

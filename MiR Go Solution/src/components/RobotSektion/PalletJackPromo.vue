@@ -89,7 +89,7 @@
     width: 984px;
     height: 567px;
     display: grid;
-    background-color: blueviolet;
+    background-color: #fff;
     grid-template-columns: repeat(4,246px);
  grid-template-rows: repeat(4,126px);
 }
@@ -107,7 +107,7 @@
 }
 .palletJackMediaInnerWrap{
 grid-area: 1/1/3/5;
-background-color: aqua;
+background-color: #fff;
     
 }
 
@@ -115,14 +115,14 @@ background-color: aqua;
 grid-area:2/1/2/3;
 display: flex;
 flex-direction: column;
-background-color: black;
+background-color:transparent;
 z-index: 1;
 text-align: left;
 padding-top: 40px;
 
 }
 .palletJackMediaWrapContent h3{
-    background-color: beige;
+    background-color:transparent;
     margin: 0;
 }
 /* her fra kun case */
@@ -130,7 +130,7 @@ padding-top: 40px;
     max-width: 1418px;
     max-height: 561px;
     justify-items: left;
-    background-color: blue;
+    background-color:transparent;
     display: grid;
     grid-template-columns:repeat(8,177px);
     grid-template-rows: repeat(4, 110px);

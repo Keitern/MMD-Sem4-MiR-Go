@@ -44,7 +44,7 @@
     margin-bottom: 30px;
     width: 100%;
     width: 1150px;
-    padding-left: 8%;
+     padding-left: 9%;
 }
 .hero-content{
     top:30px;
@@ -52,7 +52,7 @@
     max-height: 100%;
     overflow-x: clip;
     position: relative;
-    background-color: red;
+    background-color:transparent;
     height: 600px;
    
 }
@@ -63,7 +63,7 @@
   z-index: 2;
   top:170px;
   justify-content: flex-start;
-  background-color: #22c04c;
+  background-color: transparent;
     }
 
 .hero-elements{
@@ -73,7 +73,7 @@
     width: 100%;
     max-width: 60%;
     text-align: left;
-    background-color: #0feb22;
+    background-color:transparent;
     align-items: left;
     
 }
@@ -87,14 +87,14 @@ line-height: 52px;
 }
 .hero-link{
     display: flex;
-   color: #22c04c;
+   color: #fff;
     justify-content: flex-start;
 }
 
 .hero-video{
     height: auto;
     width: 100%;
-    background-color: #22c04c;
+    background-color:#fff;
 }
 
 .hero-gradient{
@@ -115,7 +115,7 @@ line-height: 52px;
     justify-content: center;
     position: relative;
     width: 100%;
-    background-color: yellow;
+    background-color: #fff;
 }
 .video-wrapper video{
     
