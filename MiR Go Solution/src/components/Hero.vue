@@ -98,15 +98,17 @@ line-height: 52px;
 }
 
 .hero-gradient{
-    opacity: .7;
+    opacity:.7;
     background: linear-gradient(90deg, #effafe 0, rgba(249, 253, 255, .75) 45%, transparent 70%), linear-gradient(270deg, #effafe 0, transparent 35%), linear-gradient(180deg, #effafe 0, transparent 25%), linear-gradient(0deg, #effafe 0, transparent 25%);
         height: 100%;
         left: 0;
         position: absolute;
         top: 0;
+        width: 2000px;
         width: 100%;
         z-index: 1;
         background-color: #17d6e4;
+       
 }
 
 .video-wrapper{
@@ -126,5 +128,6 @@ line-height: 52px;
     width: 100%;
     z-index: 0;
     background-color: violet;
+    box-shadow: 30px 0 15px 30px #effafe;
 }
 </style>
