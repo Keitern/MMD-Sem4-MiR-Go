@@ -6,8 +6,9 @@
         <div class="CardDisplayWrap">
             <div class="CardContent">
                 <h2>Our robots</h2>
-                    <p>Intern transport og materialehåndtering spiller en afgørende rolle for logistiksucces.
-                    De autonome mobile robotter (AMR'er) fra MiR kan problemfrit optimere disse arbejdsgange.
+                    <p>MiR robots are versatile solutions designed to streamline internal transportation and material handling. 
+                      By adding top modules, our robots can be customized to tow carts, lift, and transport shelves or pallets, providing flexible, 
+                      ready-made options for various tasks. MiR's autonomous mobile robots (AMRs) optimize intralogistics, enhancing efficiency and boosting the success of your operations.
                     </p>
             </div>
             <div class="cardCards">
@@ -32,7 +33,7 @@
                                    
                                 </div>
                                 <div class="cardHeadline">MIR250</div>
-                                <p>Agil og hurtigt flytter op til 250 kilo</p>
+                                <p>Agile and fast AMR that carries up to 250kg</p>
                             </div>
                         </a>   
                         <a href="/da/produkter/robotter/mir600">
@@ -55,7 +56,7 @@
                                     </div>
                                 </div>
                                 <div class="cardHeadline">MIR600</div>
-                                <p>Flytter paller på 600kg 2 m/sek </p>
+                                <p>Moves pallets of up to 600 kg at up to 2 m/sec </p>
                         </div>
                            
                             
@@ -80,7 +81,7 @@
                                     </div>
                                 </div>
                                 <div class="cardHeadline">MIR1350</div>
-                                <p>Den mest magtfulde AMR fra MiR til dato </p>
+                                <p>The most powerful AMR from MiR to date </p>
 
                             </div>
                         </a>
@@ -92,10 +93,10 @@
 </template>
 <style>
 .CardDisplayWrap{
-    max-width: 984px;
+    max-width: 1150px;
     padding: 30px 0 0 30px;
     background-color:transparent;
-    padding-left: 10%;
+    margin: auto;
 }
 .CardContent{
 display: flex;

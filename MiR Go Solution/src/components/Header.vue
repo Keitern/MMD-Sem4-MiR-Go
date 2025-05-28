@@ -14,38 +14,38 @@
                     <ul class="mainNavItems">
                 <li>
                 <div class="linkWrapper">
-                    <a href="produkter">Produkter</a>
+                    <a href="produkter">Products</a>
                 </div>
             </li>
             <li>
                 <div class="linkWrapper">
-                    <a href="din-amr-rejse">din-amr-rejse</a>
+                    <a href="din-amr-rejse">Your AMR Journey</a>
                 </div>
             </li>
             <li>
                 <div class="linkWrapper">
-                    <a href="cases">cases</a>
+                    <a href="cases">Cases</a>
                 </div>
             </li>
             <li>
                 <div class="linkWrapper">
-                    <a href="industrier">industrier</a>
+                    <a href="industrier">Industries</a>
                 </div>
             </li>
             <li>
                 <div class="linkWrapper">
-                    <a href="Om MIR">OM MiR</a>
+                    <a href="Om MIR">About</a>
                 </div>
             </li>
             <li>
                 <div class="linkWrapper">
-                    <a href="kontakt">Kontakt</a>
+                    <a href="kontakt">Contact</a>
                 </div>
             </li>
             </ul>
                 </div>
                 <div class="secondNavigation">
-                    <button class="navDropDownB">service and support
+                    <button class="navDropDownB">Service & Support
                         <img src="https://a.storyblok.com/f/230581/9x6/8cecdca15f/arrow-down.svg?cv=1695125714195" alt="dropDownArrow">
                     </button>
                 <div class="navSearchWrapper">
@@ -68,7 +68,7 @@
 <style>
 .headerWrapper{
     display: flex;
-        background-color: #fff;
+    background-color: #fff;
     height: 72px;
     left: 0;
     padding-bottom: 15px;
@@ -78,6 +78,7 @@
     transition: transform .3s ease-in-out;
     z-index: 99;
     justify-content: center;
+
 }
 
 .mainNavigation{
@@ -85,16 +86,16 @@
 }
 .navWrapper{
     display: flex;
-   background-color: #fff;
-   flex-direction: row;
-   justify-content: space-between;
-   margin: auto;
-   gap: 0;
-   align-items: center;
-   max-width: 984px;
-   max-height: 50px;
-   width: 984px;
-   margin-top:15px;
+    background-color: #fff;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: auto;
+    gap: 0;
+    align-items: center;
+    max-width: 984px;
+    max-height: 50px;
+    width: 984px;
+    margin-top:15px;
 
 
    
@@ -161,7 +162,7 @@ gap: 15px;
 .navDropDownB{
     font-size: .875rem;
     font-weight: 300;
-white-space: nowrap;
+    white-space: nowrap;
 }
     
 

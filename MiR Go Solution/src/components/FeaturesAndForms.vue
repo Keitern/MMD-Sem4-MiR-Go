@@ -8,10 +8,10 @@ import formImage from '../assets/form.png'
             
        
         <div class="featuresHeadline">
-            <h2>Du kan stole på os</h2>       
+            <h2>You can count on us</h2>       
         </div>
         <div class="featuresBody">
-            <p>Når det gælder din intralogistik, gør vi alt, hvad vi kan, for at sikre, at du er oppe at køre, og at du får maksimalt udbytte af dine MiR-robotter.</p>
+            <p>When it comes to your intralogistics, we do everything we can to ensure that you are up and running and that you get maximum output of your MiR robots.</p>
         </div>
         <div class="featuresElements" >
             <div class="featuresElement">
@@ -19,40 +19,40 @@ import formImage from '../assets/form.png'
                     <img src="https://a.storyblok.com/f/230581/30x30/3fee2f7424/icon_highlight_service.svg" alt="">
 
                 </div>
-                <p class="elementHeadline">Pålidelig</p>
-                <p class="elementBody">Vi sikrer problemfri vedligeholdelse af dine MiR-robotter.</p>
+                <p class="elementHeadline">Reliability</p>
+                <p class="elementBody">We ensure seamless maintenance for your MiR robots.</p>
             </div>
             <div class="featuresElement">
                 <div class="imgWrapperElementIcon">
                     <img src="https://a.storyblok.com/f/230581/30x30/b382a0f237/icon_industries_fastdevelopment.svg" alt="">
 
                 </div>
-                <p class="elementHeadline">Ekspertise</p>
-                <p class="elementBody">Vores erfarne MiR Technical Support-team er her for at forbedre dit logistiske workflow.</p>
+                <p class="elementHeadline">Expertise</p>
+                <p class="elementBody">Our experienced MiR Technical Support team is here to improve your logistics workflow.</p>
             </div>
             <div class="featuresElement">
                 <div class="imgWrapperElementIcon">
                     <img src="https://a.storyblok.com/f/230581/30x30/35264f2483/icon_industries_increaseefficiency.svg" alt="">
 
                 </div>
-                <p class="elementHeadline">Reaktionsdygtighed</p>
-                <p class="elementBody">Vores standardiserede digitale setup garanterer hurtig respons og minimal nedetid.</p>
+                <p class="elementHeadline">Responsiveness</p>
+                <p class="elementBody">Our standardized digital setup guarantees a rapid response and minimal downtime.</p>
             </div>
             <div class="featuresElement">
                 <div class="imgWrapperElementIcon">
                     <img src=https://a.storyblok.com/f/230581/30x30/75a0bc0b8a/icon_highlight_switch.svg alt="">
 
                 </div>
-                <p class="elementHeadline">Fleksibilitet</p>
-                <p class="elementBody">Vores fleksible service-setup sikrer hurtig problemløsning og hurtig adgang til reparationer.</p>
+                <p class="elementHeadline">Flexibility</p>
+                <p class="elementBody">Our flexible service setup ensures rapid problem-solving and quick access to repairs.</p>
             </div>
             <div class="featuresElement">
                 <div class="imgWrapperElementIcon">
                     <img src=https://a.storyblok.com/f/230581/30x30/15d2468c3c/icon_highlight_support.svg alt="">
 
                 </div>
-                <p class="elementHeadline">Tilgængelighed</p>
-                <p class="elementBody">MiR Service tilbyder tilgængelighed 24/7, når du har brug for os.</p>
+                <p class="elementHeadline">Availability</p>
+                <p class="elementBody">MiR Service offers 24/7 availability for when you need us.</p>
             </div>
         </div>
 
@@ -86,6 +86,9 @@ import formImage from '../assets/form.png'
             </div>
         </div>
     </div>
+    <footer>
+      
+    </footer>
 
 </section>
 </template>
@@ -93,35 +96,38 @@ import formImage from '../assets/form.png'
 
 .featuresWrapper{
 max-height: 485px;
-max-width: 1410px;
-padding-left: 10%;
+max-width: 1150px;
+margin: auto;
 }
 .featuresContent{
     display: flex;
    flex-direction: column;
    text-align: left;
+   margin-top: 80px;
 }
 
 .featuresBody{
     max-width: 574px;
 }
 .formsWrapper{
-max-height: auto;
-max-width: 1410px;
-padding-left: 10%;
+display: flex;
+flex-direction: row;
+margin: 80px auto;
+justify-content: center;
 }
-.formContent{
 
-width: 984px;
+.formContent{
 display: flex;
 text-align: left;
 align-content: flex-start;
 }
+
 .formInformation{
     width: 410px;
 }
 
 .featuresElements{
+    margin-top: 80px;
     display: grid;
     grid-template-columns: repeat(5,196px);
     gap: 30px  ;
@@ -134,10 +140,5 @@ word-wrap: break-word;
 }
 .elementHeadline{
     font-weight: 600;
-}
-.formScript{
-    width: 492px;
-    height: 1308px;
-    
 }
 </style>

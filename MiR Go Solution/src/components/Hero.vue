@@ -7,11 +7,11 @@
                     <div class="hero-top">
                         <div class="hero-elements">
                             <div class="hero-headline">
-                                <h1>Boost logistikken med MiR-robotter</h1>
+                                <h1>Boost logistics with MiR Robots</h1>
             
                             </div>
                             <div class="hero-link">
-                                <a href="da/din-amr-rejse">kom godt igang</a>
+                                <a href="da/din-amr-rejse">Your AMR Journey Starts Here</a>
 
                             </div>
             
@@ -44,7 +44,7 @@
     margin-bottom: 30px;
     width: 100%;
     width: 1150px;
-     padding-left: 9%;
+    margin: auto;
 }
 .hero-content{
     top:30px;

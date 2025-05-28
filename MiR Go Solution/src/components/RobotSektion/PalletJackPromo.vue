@@ -30,16 +30,16 @@
                         </div>
                         <div class="palletJackMediaWrapContent">
                             <h3 class="cardHeadline">MiR1200 Pallet Jack</h3>
-                            <p>Flyt automatisk paller på op til 1200 kg</p>
+                            <p>Move up to 1200 kg pallets automatically</p>
                         </div>                
                     </div>
                 </div>
                 <div class="promoText">
                     <div class="promoTitle">
-                        <p>Smartere bevægelser, hurtigere resultater; MiR1200 Pallet Jack dominerer pallehåndtering</p>
+                        <p>Smarter moves, faster results with the MiR1200 Pallet Jack dominating pallet handling</p>
                     </div>
                     <div class="linkWrapper">
-                        <a href="da/din-amr-rejse">Læs mere</a>
+                        <a href="da/din-amr-rejse">Explore the MiR1200 Pallet Jack</a>
 
                     </div>
                 </div>
@@ -62,10 +62,12 @@
                 <span class="label label--light" aria-label="Label: Cases">Cases</span>
             </div>
             <div class="promoTitle">
-                <p>AMR'er er omkostningseffektive, sikre og fleksible at implementere - og de gør automatisering nemmere end nogensinde</p>
+                <p>See how leading companies are transforming logistics with MiR.
+
+                  Join our upcoming events and webinars to learn how to scale automation, enhance safety, and drive ROI.</p>
             </div>
             <div class="linkWrapper">
-                <a href="/da/cases">Udforsk case</a>
+                <a href="/da/cases"> Discover events & webinars </a>
             </div>
         </div>
 
@@ -78,11 +80,11 @@
 /*her fra kun jack*/
 .promoWrapper{
    padding:0px 0px 0px 30px;
-    max-width: 984px;
+    max-width: 1150px;
     display:flex;
     flex-direction: row;
-    justify-content:center;
-    padding-left: 10%;
+    justify-content: space-between;
+    margin: auto;
 }
 .promoContent{
     
@@ -127,13 +129,14 @@ padding-top: 40px;
 }
 /* her fra kun case */
 .promoContentCase{
-    max-width: 1418px;
+    max-width: 1150px;
     max-height: 561px;
     justify-items: left;
     background-color:transparent;
-    display: grid;
-    grid-template-columns:repeat(8,177px);
-    grid-template-rows: repeat(4, 110px);
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    margin: auto;
     
 }
 .promoImage{
