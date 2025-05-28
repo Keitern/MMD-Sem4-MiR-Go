@@ -1,0 +1,28 @@
+*{
+    font-family: system-ui, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #333;
+    
+}
+
+.mir-go-page {
+  margin: 0 auto; /* this centers it horizontally */
+  display: flex;
+  flex-direction: column;
+}
+
+h2{
+  font-size: 2em;
+  font-weight: 350;
+}
+
+p{
+  font-weight:350;
+  margin: 0;
+}
+
+b{
+  font-weight: 500;
+}
+
+
+
