@@ -1,8 +1,8 @@
 {
-  "id": 1,
-  "name": "Product 1",
-  "industry": "healthcare",
-  "capacity": "250kg",
-  "function": "lift",
-"image": "/images/product1.jpg"
+  "id": 0,
+  "name": "",
+  "industry": "",
+  "capacity": 0,
+  "function": "",
+  "image": ""
 }
