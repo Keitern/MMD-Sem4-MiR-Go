@@ -1,6 +1,69 @@
+<script>
+const industryCard = []
+</script>
 <template>
-  <div>
-    <h2>Matchmaking Industry</h2>
-    <button>Næste sektion</button>
-  </div>
+    <section>
+<div class="industryWrapper">
+    <div class="industrycontent">
+        <div class=IndustryText>
+
+    <h1> CHoose Industry/Sector</h1>
+    <p>This tells us what kind of environment we need to accommodate</p>
+        </div>
+        <div class="innerindustrywrap">
+            <li class="industylist">
+                <a href="#">industry
+                    <img src="#" alt="">
+                    <div class="industryHeadline">
+
+                    </div>
+                    
+                </a>
+                <a href="#">industry
+                    <img src="#" alt="">
+                    <div class="industryHeadline"></div>
+                    
+                </a>
+                <a href="#">industry
+                    <img src="#" alt="">
+                    <div class="industryHeadline"></div>
+                    
+                </a>
+                <a href="#">industry
+                    <img src="#" alt="">
+                    <div class="industryHeadline"></div>
+                    
+                </a>
+                <a href="#">industry
+                    <img src="#" alt="">
+                    <div class="industryHeadline"></div>
+                    
+                </a>
+                <a href="#">industry
+                    <img src="#" alt="">
+                    <div class="industryHeadline"></div>
+                    
+                </a>
+                <a href="#">industry
+                    <img src="#" alt="">
+                    <div class="industryHeadline"></div>
+                    
+                </a>
+                <a href="#">industry
+                    <img src="#" alt="">
+                    <div class="industryHeadline"></div>
+                    
+                </a>
+                <a href="#">industry
+                    <img src="#" alt="">
+                    <div class="industryHeadline"></div>
+                    
+                </a>
+            </li>
+        </div>
+
+    </div>
+</div>
+    </section>
+  
 </template>
