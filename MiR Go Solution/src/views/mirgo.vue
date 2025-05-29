@@ -1,11 +1,16 @@
 <script>
 import Footer from '../components/footer.vue'
+import Matchstart from '../components/matchmakingviews/matchstart.vue';
+import Matchindustry from '../components/matchmakingviews/matchindustry.vue';
 
 
 export default {
   name: 'MiRGo',
     components: {
-    Footer
+    Footer,
+    Matchstart,
+    Matchindustry,
+    
   },
   data() {
     return {
@@ -83,27 +88,10 @@ export default {
 
     <div class="box-space-between">
     <section class="mirgoslider">
-      <div class="slideranimation">
-       
-        <div class="slidercontent">
-          <div>
-            <h2> Animation and text </h2>
-          </div>
-
-          <div>
-            <h2>
-              Easy mounting of top modules
-            </h2>
-            <p>
-              The robots from MiR are highly flexible, and it is simple to deploy different top modules. <br><br>
-              It is easy to connect the top module to the robot via accessible I/OS and four screws
-            </p>
-          </div>
-        </div>
-       
-      </div>
+     <Matchstart/>
+     <Matchindustry/>
     </section>
-
+    
     <section class="mirgoslider">
       <div class="slideranimation">
         <div class="slidercontent">
