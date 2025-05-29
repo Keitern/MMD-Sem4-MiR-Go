@@ -1,8 +1,362 @@
-{
-  "id": 0,
-  "name": "",
-  "industry": "",
-  "capacity": 0,
-  "function": "",
-  "image": ""
-}
+[
+  {
+    "id": 51,
+    "name": "enabled robotics - mc600",
+    "industry": ["other"],
+    "capacity": [600],
+    "function": "robot arm",
+    "image": "/productimgs/51.webp"
+  },
+  {
+    "id": 52,
+    "name": "enabled robotics - mc250",
+    "industry":  ["other"],
+    "capacity": [250],
+    "function": "robot arm",
+    "image": "/productimgs/52.webp"
+  },
+  {
+    "id": 53,
+    "name": "astech projects - robotic lab assistant", 
+    "industry": ["healthcare"],
+    "capacity": [250, 600, 1350],
+    "function": "robot arm",
+    "image": "/productimgs/53.webp"
+  },
+  {
+    "id": 54,
+    "name": "nonead - ncobot2510e limited cb2",
+    "industry": ["logistics and third party logistics"],
+    "capacity": [250, 600, 1350],
+    "function": "robot arm",
+    "image": "/productimgs/54.webp"
+  },
+  {
+    "id": 55,
+    "name": "nord modules - ct155, cobot tower",
+    "industry": ["other"],
+    "capacity": [250],
+    "function": "robot arm",
+    "image": "/productimgs/55.webp"
+  },
+  {
+    "id": 56,
+    "name": "nord modules - wheel gate",
+    "industry": ["logistics", "other"],
+    "capacity": [250],
+    "function": "stations",
+    "image": "/productimgs/56.webp"
+  },
+  {
+    "id": 57,
+    "name": "palomat - palomat amr",
+    "industry": ["logistics", "other"],
+    "capacity": [600, 1350],
+    "function": "stations",
+    "image": "/productimgs/57.webp"
+  },
+  {
+    "id": 58,
+    "name": "nord modules - basic gate",
+    "industry": ["logistics", "other"],
+    "capacity": [250],
+    "function": "stations",
+    "image": "/productimgs/58.webp"
+  },
+  {
+    "id": 59,
+    "name": "nord modules - pallet rack",
+    "industry": ["logistics"],
+    "capacity": [600, 1350],
+    "function": "stations",
+    "image": "/productimgs/59.webp"
+  },
+  {
+    "id": 60,
+    "name": "nord modules - dock target",
+    "industry": ["logistics"],
+    "capacity": [600, 1350],
+    "function": "stations",
+    "image": "/productimgs/60.webp"
+  },
+  {
+    "id": 61,
+    "name": "autotec - stub shaft interface conveyor",
+    "industry": ["logistics"],
+    "capacity": [600, 1350],
+    "function": "stations",
+    "image": "/productimgs/61.webp"
+  },
+  {
+    "id": 62,
+    "name": "automated motion - conveyor dock",
+    "industry": ["logistics"],
+    "capacity": [600, 1350],
+    "function": "stations",
+    "image": "/productimgs/62.webp"
+  },
+  {
+    "id": 63,
+    "name": "link devices - pallet rack",
+    "industry": ["logistics"],
+    "capacity": [600, 1350],
+    "function": "stations",
+    "image": "/productimgs/63.webp"
+  },
+  {
+    "id": 64,
+    "name": "automated motion - pallet stand",
+    "industry": ["logistics"],
+    "capacity": [600, 1350],
+    "function": "stations",
+    "image": "/productimgs/64.webp"
+  },
+  {
+    "id": 65,
+    "name": "noll - noll boxes transfer station",
+    "industry": ["logistics"],
+    "capacity": [250],
+    "function": "stations",
+    "image": "/productimgs/65.webp"
+  },
+  {
+    "id": 66,
+    "name": "robotic innovation - smart pallet station lift 600",
+    "industry": ["logistics"],
+    "capacity": [600, 1350],
+    "function": "stations",
+    "image": "/productimgs/66.webp"
+  },
+  {
+    "id": 67,
+    "name": "robotic innovation - smart pallet station floor lift 600",
+    "industry": ["logistics"],
+    "capacity": [600, 1350],
+    "function": "stations",
+    "image": "/productimgs/67.webp"
+  },
+  {
+    "id": 68,
+    "name": "robotic innovation - smart pallet station lift 1250",
+    "industry": ["logistics"],
+    "capacity": [600, 1350],
+    "function": "stations",
+    "image": "/productimgs/68.webp"
+  },
+  {
+    "id": 69,
+    "name": "robotic innovation - smart pallet station 1250",
+    "industry": ["logistics"],
+    "capacity": [600, 1350],
+    "function": "stations",
+    "image": "/productimgs/69.webp"
+  },
+  {
+    "id": 70,
+    "name": "soco - pallet magazine palmanager fixed",
+    "industry": ["logistics"],
+    "capacity": [600, 1350],
+    "function": "stations",
+    "image": "/productimgs/70.webp"
+  },
+  {
+    "id": 71,
+    "name": "alfa test-relative-markers",
+    "industry": ["other"],
+    "capacity": [250, 600, 1350],
+    "function": "stations",
+    "image": "/productimgs/71.webp"
+  },
+  {
+    "id": 72,
+    "name": "link devices-pallet-lift-station",
+    "industry": ["logistics"],
+    "capacity": [600, 1350],
+    "function": "stations",
+    "image": "/productimgs/72.webp"
+  },
+  {
+    "id": 73,
+    "name": "olirobot - pallet rack conveyor",
+    "industry": ["logistics", "industrial"],
+    "capacity": [600, 1350],
+    "function": "stations",
+    "image": "/productimgs/73.webp"
+  },
+  {
+    "id": 74,
+    "name": "olirobot - us pallet rack",
+    "industry": ["logistics", "other"],
+    "capacity": [600, 1350],
+    "function": "stations",
+    "image": "/productimgs/74.webp"
+  },
+  {
+    "id": 75,
+    "name": "olirobot - euro pallet rack",
+    "industry": ["logistics", "industrial", "other"],
+    "capacity": [600, 1350],
+    "function": "stations",
+    "image": "/productimgs/75.webp"
+  },
+  {
+    "id": 76,
+    "name": "olirobot - robot conveyor docking station",
+    "industry": ["logistics", "industrial"],
+    "capacity": [250],
+    "function": "stations",
+    "image": "/productimgs/76.webp"
+  },
+  {
+    "id": 77,
+    "name": "robotic innovation - smart pallet rack",
+    "industry": ["logistics", "other"],
+    "capacity": [600, 1350],
+    "function": "stations",
+    "image": "/productimgs/77.webp"
+  },
+  {
+    "id": 78,
+    "name": "melton machine heavy duty lift station",
+    "industry": ["logistics", "industrial", "other"],
+    "capacity": [600, 1350],
+    "function": "stations",
+    "image": "/productimgs/.webp"
+  },
+  {
+    "id": 79,
+    "name": "melton machine autonomous mobile robot conveyor interface",
+    "industry": ["logistics", "other"],
+    "capacity": [600, 1350],
+    "function": "stations",
+    "image": "/productimgs/79.webp"
+  },
+  {
+    "id": 80,
+    "name": "hyperion - pallet stand",
+    "industry": ["other"],
+    "capacity": [600, 1350],
+    "function": "stations",
+    "image": "/productimgs/80.webp"
+  },
+  {
+    "id": 81,
+    "name": "mts - pallet lifter",
+    "industry": ["logistics", "other"],
+    "capacity": [250, 600, 1350],
+    "function": "stations",
+    "image": "/productimgs/81.webp"
+  },
+  {
+    "id": 82,
+    "name": "roeq easy-pull-out docking",
+    "industry": ["other"],
+    "capacity": [250],
+    "function": "stations",
+    "image": "/productimgs/82.webp"
+  },
+  {
+    "id": 83,
+    "name": "roeq - pr250",
+    "industry": ["other"],
+    "capacity": [250],
+    "function": "stations",
+    "image": "/productimgs/83.webp"
+  },
+  {
+    "id": 84,
+    "name": "roeq - precision docking",
+    "industry": ["other"],
+    "capacity": [250],
+    "function": "stations",
+    "image": "/productimgs/84.webp"
+  },
+  {
+    "id": 85,
+    "name": "flexware - lift",
+    "industry": ["other"],
+    "capacity": [250, 600, 1350],
+    "function": "communication",
+    "image": "/productimgs/85.webp"
+  },
+  {
+    "id": 86,
+    "name": "inorbit - robot operations platform",
+    "industry": ["other"],
+    "capacity": [250, 600, 1350],
+    "function": "communication",
+    "image": "/productimgs/86.webp"
+  },
+  {
+    "id": 87,
+    "name": "ai automation - ai elevator system with opc ua",
+    "industry": ["other"],
+    "capacity": [250, 600, 1350],
+    "function": "communication",
+    "image": "/productimgs/87.webp"
+  },
+  {
+    "id": 88,
+    "name": "intelligent systems - next step",
+    "industry": ["other"],
+    "capacity": [250, 600, 1350],
+    "function": "communication",
+    "image": "/productimgs/88.webp"
+  },
+  {
+    "id": 89,
+    "name": "svt - softbot platform",
+    "industry": ["other"],
+    "capacity": [250, 600, 1350],
+    "function": "communication",
+    "image": "/productimgs/89.webp"
+  },
+  {
+    "id": 90,
+    "name": "trio mobil - amr safety solutions",
+    "industry": ["other"],
+    "capacity": [250, 600, 1350],
+    "function": "communication",
+    "image": "/productimgs/90.webp"
+  },
+  {
+    "id": 91,
+    "name": "sorion - fleetware",
+    "industry": ["other"],
+    "capacity": [250, 600, 1350],
+    "function": "communication",
+    "image": "/productimgs/91.webp"
+  },
+  {
+    "id": 92,
+    "name": "locixx - connectedthinks",
+    "industry": ["other"],
+    "capacity": [250, 600, 1350],
+    "function": "communication",
+    "image": "/productimgs/92.webp"
+  },
+  {
+    "id": 93,
+    "name": "gibas - rewind",
+    "industry": ["other"],
+    "capacity": [250, 600, 1350],
+    "function": "communication",
+    "image": "/productimgs/93.webp"
+  },
+  {
+    "id": 94,
+    "name": "enabled robotics - er-ability",
+    "industry": ["other"],
+    "capacity": [250],
+    "function": "communication",
+    "image": "/productimgs/94.webp"
+  },
+  {
+    "id": 95,
+    "name": "meili robots - meili fms",
+    "industry": ["other"],
+    "capacity": [250, 600, 1350],
+    "function": "communication",
+    "image": "/productimgs/95.webp"
+  }
+]
