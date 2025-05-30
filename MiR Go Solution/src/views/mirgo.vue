@@ -1,60 +1,139 @@
-<script>
+<script setup>
+import { ref, computed } from 'vue'
 import Footer from '../components/footer.vue'
+import productsData from '../../public/data/products.json'
+
+// Step components
+import MatchStart from '../components/matchmakingviews/matchstart.vue'
+import MatchIndustry from '../components/matchmakingviews/matchindustry.vue'
+import MatchWeight from '../components/matchmakingviews/matchweight.vue'
+import MatchFunction from '../components/matchmakingviews/matchfunction.vue'
+import MatchResults from '../components/matchmakingviews/matchresults.vue'
+
+// Step control and state
+const step = ref(0)
+const selectedIndustry = ref(null)
+const selectedWeight = ref(null)
+const selectedFunction = ref(null)
+
+const products = ref(productsData)
+
+// Filter logic based on selection up to current step
+const filteredProducts = computed(() => {
+  return products.value.filter(product =>
+    (!selectedIndustry.value || product.industry === selectedIndustry.value) &&
+    (!selectedWeight.value || product.weight === selectedWeight.value) &&
+    (!selectedFunction.value || product.function === selectedFunction.value)
+  )
+})
+
+// Step control
+const steps = [MatchStart, MatchIndustry, MatchWeight, MatchFunction, MatchResults]
+const currentStepComponent = computed(() => steps[step.value])
+
+// reset function
+function resetMatchmaking() {
+  step.value = 0
+  selectedIndustry.value = null
+  selectedWeight.value = null
+  selectedFunction.value = null
+}
+
+// Props passed to the current step
+const stepProps = computed(() => {
+  const props = {}
+
+  // Step 1: matchindustry.vue
+  if (step.value === 1) {
+    props.products = products.value
+  }
+
+  // Step 2: matchweight.vue
+  if (step.value === 2) {
+    props.products = products.value
+  }
+
+  // Step 3: matchfunction.vue
+  if (step.value === 3) {
+    props.products = products.value
+  }
+
+  // Step 4: matchresults.vue
+  if (step.value === 4) {
+    props.products = products.value
+    props.selectedIndustry = selectedIndustry.value
+    props.selectedWeight = selectedWeight.value || null // allow null/undefined
+    props.selectedFunction = selectedFunction.value
+    props.onReset = resetMatchmaking
+  }
+
+  return props
+})
 
 
-export default {
-  name: 'MiRGo',
-    components: {
-    Footer
+
+// Event handlers for each step
+function goToNextStep() {
+  step.value++
+}
+function onIndustrySelected(value) {
+  selectedIndustry.value = value
+  step.value++
+}
+function onWeightSelected(value) {
+  selectedWeight.value = value
+  step.value++
+}
+function onFunctionSelected(value) {
+  selectedFunction.value = value
+  step.value++
+}
+
+
+
+// Static top module data
+const modules = ref([
+  {
+    name: 'Enabled Robotics - MC600',
+    image: 'https://mobile-industrial-robots.com/media/1019/mir-logo.png',
   },
-  data() {
-    return {
-      modules: [
-        {
-          name: 'Enabled Robotics - MC600',
-          image: 'https://mobile-industrial-robots.com/media/1019/mir-logo.png',
-        },
-        {
-          name: 'ROEQ - TMS-C300 Ext',
-          image: 'https://mobile-industrial-robots.com/media/1019/mir-logo.png',
-        },
-        {
-          name: 'Nord Modules - PM800, Pallet Mover',
-          image: 'https://mobile-industrial-robots.com/media/1019/mir-logo.png',
-        },
-        {
-          name: 'Palomat - PALOMAT® AMR',
-          image: 'https://mobile-industrial-robots.com/media/1019/mir-logo.png',
-        },
-        {
-          name: 'Noll - Mobile Air Disinfection Top Module',
-          image: 'https://mobile-industrial-robots.com/media/1019/mir-logo.png',
-        },
-        {
-          name: 'Noll - Mobile Air Disinfection Top Module',
-          image: 'https://mobile-industrial-robots.com/media/1019/mir-logo.png',
-        },
-        {
-          name: 'Noll - Mobile Air Disinfection Top Module',
-          image: 'https://mobile-industrial-robots.com/media/1019/mir-logo.png',
-        },
-        {
-          name: 'Noll - Mobile Air Disinfection Top Module',
-          image: 'https://mobile-industrial-robots.com/media/1019/mir-logo.png',
-        },
-        {
-          name: 'Noll - Mobile Air Disinfection Top Module',
-          image: 'https://mobile-industrial-robots.com/media/1019/mir-logo.png',
-        },
-      ],
-    };
+  {
+    name: 'ROEQ - TMS-C300 Ext',
+    image: 'https://mobile-industrial-robots.com/media/1019/mir-logo.png',
   },
-};
-
+  {
+    name: 'Nord Modules - PM800, Pallet Mover',
+    image: 'https://mobile-industrial-robots.com/media/1019/mir-logo.png',
+  },
+  {
+    name: 'Palomat - PALOMAT® AMR',
+    image: 'https://mobile-industrial-robots.com/media/1019/mir-logo.png',
+  },
+  {
+    name: 'Noll - Mobile Air Disinfection Top Module',
+    image: 'https://mobile-industrial-robots.com/media/1019/mir-logo.png',
+  },
+  {
+    name: 'Noll - Mobile Air Disinfection Top Module',
+    image: 'https://mobile-industrial-robots.com/media/1019/mir-logo.png',
+  },
+  {
+    name: 'Noll - Mobile Air Disinfection Top Module',
+    image: 'https://mobile-industrial-robots.com/media/1019/mir-logo.png',
+  },
+  {
+    name: 'Noll - Mobile Air Disinfection Top Module',
+    image: 'https://mobile-industrial-robots.com/media/1019/mir-logo.png',
+  },
+  {
+    name: 'Noll - Mobile Air Disinfection Top Module',
+    image: 'https://mobile-industrial-robots.com/media/1019/mir-logo.png',
+  },
+])
 </script>
 
-<template>
 
+<template>
   <div class="mir-go-page">
     <!-- Header -->
     <header class="header">
@@ -75,92 +154,111 @@ export default {
         <h1>Extend the functionality with MiR Go top modules</h1>
         <p>
           In the fast-paced world of manufacturing, MiR offers a strategic advantage to forward-thinking organizations.
-          <br> <br> At our core, MiR is an open robot platform, finely tuned for seamless integration into daily operations. 
+          <br><br>
+          At our core, MiR is an open robot platform, finely tuned for seamless integration into daily operations. 
           We leverage our extensive knowledge of internal logistics automation and our expertise in software, navigation, and workflow optimization.
         </p>
       </div>
     </section>
 
+
     <div class="box-space-between">
-    <section class="mirgoslider">
-      <div class="slideranimation">
-       
-        <div class="slidercontent">
-          <div>
-            <h2> Animation and text </h2>
-          </div>
 
-          <div>
-            <h2>
-              Easy mounting of top modules
-            </h2>
-            <p>
-              The robots from MiR are highly flexible, and it is simple to deploy different top modules. <br><br>
-              It is easy to connect the top module to the robot via accessible I/OS and four screws
-            </p>
+        <!-- Matchmaking Flow -->
+        <section class="mirgo-matchmaking">
+          <div class="match-container-scrollable">
+            <component
+              :is="currentStepComponent"
+              v-bind="stepProps"
+              @next="goToNextStep"
+              @selectIndustry="onIndustrySelected"
+              @selectWeight="onWeightSelected"
+              @selectFunction="onFunctionSelected"
+            />
+          </div>
+        </section>  
+
+      <section class="mirgoslider">
+        <div class="slideranimation">
+          <div class="slidercontent">
+            <div>
+              <h2> Animation and text </h2>
+            </div>
+            <div>
+              <h2>Easy mounting of top modules</h2>
+              <p>
+                The robots from MiR are highly flexible, and it is simple to deploy different top modules. <br><br>
+                It is easy to connect the top module to the robot via accessible I/OS and four screws
+              </p>
+            </div>
           </div>
         </div>
-       
-      </div>
-    </section>
-
-    <section class="mirgoslider">
-      <div class="slideranimation">
-        <div class="slidercontent">
-          <div>
-            <h2> Animation and text </h2>
-          </div>
-        
-          <div>
-            <h2>
-              Easy mounting of top modules
-            </h2>
-            <p>
-              The robots from MiR are highly flexible, and it is simple to deploy different top modules. <br><br>
-              It is easy to connect the top module to the robot via accessible I/OS and four screws
-            </p>
-          </div>
-        </div>
-       
-      </div>
-    </section>
+      </section>
     </div>
 
+    <!-- fake modules -->
+    <div class="fakeelement">Fake filter</div>
 
-    <!-- Top Modules Grid -->
-     <div class="fakeelement">
-        Fake filter
-     </div>
     <section class="modules">
       <div class="module-card" v-for="(module, index) in modules" :key="index">
         <img :src="module.image" :alt="module.name" />
         <h3>{{ module.name }}</h3>
       </div>
     </section>
-    <div class="fakeelement">
-      Pagination
-    </div>
-  
+
+    <div class="fakeelement">Pagination</div>
+
+    <!-- bot text -->
     <section class="mirgo-bottomtext">
       <div class="bottomtext-textwidth">
         <p>
-          In manufacturing facilities, where the demand for heightened efficiency, productivity, and innovation is ever-present, MiR Go serves as a powerful resource and inspiration hub. It houses applications and top modules tailored for seamless integration with MiR's suite of robots, delivering a substantial operational boost.
-          <br><br>
-          MiR Go is an exclusive ecosystem of over 160 off-the-shelf applications, designed and engineered to enhance the capabilities of MiR robots. With MiR Go Approved, a supplementary to MiR Go, you can rest assured that these applications have undergone testing by us, encompassing functionality, safety, and mutual change control. This ensures that MiR Go Approved products integrate seamlessly with MiR robots, upholding our high quality standards.
-          <br><br>
-          The key benefit of MiR Go is its ability to seamlessly customize MiR robots with off-the-shelf solutions, providing flexibility that empowers your company to excel in automation, embrace the future with confidence and a competitive edge by harnessing the full potential of MiR and MiR Go.
+    In manufacturing facilities, where the demand for heightened efficiency, productivity, and innovation is ever-present, MiR Go serves as a powerful resource and inspiration hub. It houses applications and top modules tailored for seamless integration with MiR's suite of robots, delivering a substantial operational boost.
+            <br><br>
+    MiR Go is an exclusive ecosystem of over 160 off-the-shelf applications, designed and engineered to enhance the capabilities of MiR robots. With MiR Go Approved, a supplementary to MiR Go, you can rest assured that these applications have undergone testing by us, encompassing functionality, safety, and mutual change control. This ensures that MiR Go Approved products integrate seamlessly with MiR robots, upholding our high quality standards.
+            <br><br>
+    The key benefit of MiR Go is its ability to seamlessly customize MiR robots with off-the-shelf solutions, providing flexibility that empowers your company to excel in automation, embrace the future with confidence and a competitive edge by harnessing the full potential of MiR and MiR Go.
+            <br><br>
+    Disclaimer:
+            <br><br>
+    Mobile Industrial Robots are not responsible for the products displayed on the MiRGo platform. We only provide the information provided by the dealer partners, and the dealer partners are fully responsible for the product.
         </p>
       </div>
-
     </section>
-
-  
   </div>
-
+  
 <Footer></Footer>
 </template>
 
 <style scoped>
+
+.mirgo-matchmaking{
+  height: 50vh;
+  width: 53%;
+  background-color: grey;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+
+  overflow: hidden;
+  padding: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.match-container-scrollable {
+  max-height: 100%;
+  overflow-y: auto;
+  padding-right: 0.5rem;
+}
+
+/* Optional: prettier scrollbar */
+.match-container-scrollable::-webkit-scrollbar {
+  width: 8px;
+}
+.match-container-scrollable::-webkit-scrollbar-thumb {
+  background: #ccc;
+  border-radius: 4px;
+}
 
 .fakeelement{
   display: flex;
@@ -198,7 +296,7 @@ export default {
   flex-direction: column;
   justify-content: left;
   padding: 60px 20px;
-  background-color: #F9FDFF;
+  background-color: #fafdff;
   max-width: 100vw;
 }
 
@@ -235,7 +333,7 @@ export default {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background-color: #fff;
+  background-color: #fafdff;
   border: 1px solid #F9FDFF;
   width: 14vw;
   height: 20vh;
@@ -260,7 +358,7 @@ export default {
   display:flex;
   flex-direction: row;
   height: 50vh;
-  background-color: #cacaca;
+  background-color: #fafdff;
   justify-content: center;
   align-items: center;
 }
@@ -287,16 +385,14 @@ width: 100vw;
 }
 
 .bottomtext-textwidth{
-  margin: 0 auto;
+    width: 66vw;
+    padding-left: 6%;
+}
+
+.bottomtext-textwidth > p {
   max-width: 33vw;
-  padding-right: 23%;
+  text-align: start !important;
 }
-
-.bottomtext-textwidth p {
-  text-align: left !important;
-}
-
-
 
 </style>
 
