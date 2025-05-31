@@ -1,5 +1,8 @@
 <script>
-const industryCard = []
+import topmodul from  '../data/products.json'
+const industryCard = [
+    
+]
 </script>
 <template>
     <section>
@@ -21,7 +24,7 @@ const industryCard = []
                 </a>
                 <a href="#">industry
                     <img src="#" alt="">
-                    <div class="industryHeadline"></div>
+                    <div class="industryHeadline">{{ topmodul.id.value.industry }}</div>
                     
                 </a>
                 <a href="#">industry
