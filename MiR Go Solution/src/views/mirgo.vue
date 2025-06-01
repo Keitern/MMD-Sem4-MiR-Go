@@ -2,36 +2,34 @@
 import { ref, computed } from 'vue'
 import Footer from '../components/footer.vue'
 import productsData from '../../public/data/products.json'
-
-// Step components
 import MatchStart from '../components/matchmakingviews/matchstart.vue'
 import MatchIndustry from '../components/matchmakingviews/matchindustry.vue'
 import MatchWeight from '../components/matchmakingviews/matchweight.vue'
 import MatchFunction from '../components/matchmakingviews/matchfunction.vue'
 import MatchResults from '../components/matchmakingviews/matchresults.vue'
 
-// Step control and state
+// reactive step state and filter selections
 const step = ref(0)
 const selectedIndustry = ref(null)
 const selectedWeight = ref(null)
 const selectedFunction = ref(null)
 
-const products = ref(productsData)
+const products = ref(productsData) // load all products from products.json
 
-// Filter logic based on selection up to current step
+// makes filtered list based on slected industry weight function
 const filteredProducts = computed(() => {
   return products.value.filter(product =>
-    (!selectedIndustry.value || product.industry === selectedIndustry.value) &&
-    (!selectedWeight.value || product.weight === selectedWeight.value) &&
+    (!selectedIndustry.value || product.industry.includes(selectedIndustry.value)) &&
+    (!selectedWeight.value || product.capacity.includes((selectedWeight.value))) &&
     (!selectedFunction.value || product.function === selectedFunction.value)
   )
 })
 
-// Step control
+// array of step components; determines which one to render
 const steps = [MatchStart, MatchIndustry, MatchWeight, MatchFunction, MatchResults]
 const currentStepComponent = computed(() => steps[step.value])
 
-// reset function
+// reset btn, reset everything to initial state
 function resetMatchmaking() {
   step.value = 0
   selectedIndustry.value = null
@@ -39,40 +37,34 @@ function resetMatchmaking() {
   selectedFunction.value = null
 }
 
-// Props passed to the current step
+// prepares props to pass to the current child component
 const stepProps = computed(() => {
   const props = {}
 
-  // Step 1: matchindustry.vue
   if (step.value === 1) {
-    props.products = products.value
+    props.products = products.value // passed for industry
   }
 
-  // Step 2: matchweight.vue
   if (step.value === 2) {
-    props.products = products.value
+    props.products = products.value // passed for weight
   }
 
-  // Step 3: matchfunction.vue
   if (step.value === 3) {
-    props.products = products.value
+    props.products = products.value // only show functions from matching industry+weight
   }
 
-  // Step 4: matchresults.vue
   if (step.value === 4) {
-    props.products = products.value
+  props.products = products.value
     props.selectedIndustry = selectedIndustry.value
     props.selectedWeight = selectedWeight.value || null // allow null/undefined
     props.selectedFunction = selectedFunction.value
-    props.onReset = resetMatchmaking
+    props.onReset = resetMatchmaking // passed to results component
   }
 
   return props
 })
 
-
-
-// Event handlers for each step
+// Event listeners from children
 function goToNextStep() {
   step.value++
 }
@@ -164,9 +156,10 @@ const modules = ref([
 
     <div class="box-space-between">
 
-        <!-- Matchmaking Flow -->
+        <!-- matchmaking Flow -->
         <section class="mirgo-matchmaking">
           <div class="match-container-scrollable">
+              <!-- dynamic rendering of current step-->
             <component
               :is="currentStepComponent"
               v-bind="stepProps"
@@ -232,9 +225,9 @@ const modules = ref([
 <style scoped>
 
 .mirgo-matchmaking{
-  height: 50vh;
-  width: 53%;
-  background-color: grey;
+  height: 75vh;
+  width: 80%;
+  background-color: rgb(22, 56, 128);
   display: flex;
   justify-content: center;
   margin: auto;
