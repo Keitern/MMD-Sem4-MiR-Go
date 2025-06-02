@@ -101,16 +101,23 @@ button {
   color: white;
   background-color: #eee;
   cursor: pointer;
-  border: 1px solid #ccc;
+  border: 1px solid #003087 ;
   font-size: 1rem;
   text-align: center;
   height: 15vh;
   position: relative;
   z-index: 0;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  overflow: hidden;
+backdrop-filter: blur(2px);
+  
 }
 
-button strong {
-  color:white;
+
+button:hover{
+    background-color:rgba(255, 255, 255, .8) ;
+    transform: scale(1.03); /* gør knappen lidt større */
+  box-shadow: 0 8px 20px rgba(0, 0, 0, .3);
 }
 
 button::after {
@@ -119,7 +126,12 @@ button::after {
   inset: 0;
   background: rgba(0, 0, 0, 0.5); /* Dark overlay */
   z-index: -1;
+   transition: transform 0.3s ease;
+  background: rgba(0, 0, 0, 0.4); /* lidt mørkere for mere kontrast */
+  background-size: 110%; /* gør zoom mulig */
+  background-position: center;
 }
+
 
 button > * {
   position: relative;

@@ -86,6 +86,9 @@ const weightImages = {
     text-align: center;
     position: relative;
     z-index: 0;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  overflow: hidden;
+backdrop-filter: blur(2px);
   }
 
   button::after {
@@ -94,6 +97,11 @@ const weightImages = {
   inset: 0;
   background: rgba(0, 0, 0, 0.5); /* Dark overlay */
   z-index: -1;
+}
+button:hover{
+    background-color: #eee;
+    transform: scale(1.03); /* gør knappen lidt større */
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
 }
 
 button > * {
