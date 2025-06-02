@@ -20,9 +20,9 @@ function selectWeight(weight) {
 
 // image backgrounds
 const weightImages = {
-  250: '/productimgs/0.webp',
-  600: '/productimgs/0.webp',
-  1350: '/productimgs/0.webp',
+  250: 'https://a.storyblok.com/f/230581/672x421/2ae31882e5/mir250-fallbackteaser.png/m/',
+  600: 'https://a.storyblok.com/f/230581/672x421/347d9337e1/mir600-fallbackteaser.png/m/',
+  1350: 'https://a.storyblok.com/f/230581/672x421/bdb745e5ae/mir1350-fallbackteaser.png/m/',
 }
 </script>
 
