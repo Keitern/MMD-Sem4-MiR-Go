@@ -27,21 +27,24 @@ const sortedIndustries = computed(() => {
 
 // image backgrounds
 const industryImages = {
-  Healthcare: '/productimgs/0.webp',
-  Electronics: '/productimgs/0.webp',
-  Automotive: '/productimgs/0.webp',
-  "Home furniture and Consumer goods": '/productimgs/0.webp',
-  "Agriculture, Machinery and Tools": '/productimgs/0.webp',
-  "Energy, Power and Safety": '/productimgs/0.webp',
-  "Industrial and Manafacturing Solutions": '/productimgs/0.webp',
-  "Logistics and Third party logistics": '/productimgs/0.webp',
+  Healthcare: '/productimgs/industrierhealthcare.webp',
+  Electronics: '/productimgs/industrierelektronic.webp',
+  Automotive: '/productimgs/industrierautomotive.webp',
+  "Home furniture and Consumer goods": '/productimgs/industrierconsumergood.webp',
+  "Agriculture, Machinery and Tools": '/productimgs/industrieragraculture.webp',
+  "Energy, Power and Safety": '/productimgs/industrierenergi.webp',
+  "Industrial and Manafacturing Solutions": '/productimgs/industrierindustrier.webp',
+  "Logistics and Third party logistics": '/productimgs/industrierlogistik.webp',
   Other: '/productimgs/0.webp',
 }
 </script>
 
 <template>
   <div class="match-step">
+    <div class="industryText">
     <h2>Select Industry</h2>
+    <p>This tells us what kind of environment we need to accommodate</p>
+    </div>
     <div class="industry-wrapper">
       <!-- renders buttons, 
        ensures "Other" appears last 
@@ -80,6 +83,14 @@ const industryImages = {
   justify-content: center;
   gap: 1rem;
   max-width: 50vw;
+}
+.industryText{
+display: flex;
+text-align: center;
+flex-direction: column;
+}
+.industryText p{
+    opacity:.8;
 }
 
 button {

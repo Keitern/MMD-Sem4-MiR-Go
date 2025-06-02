@@ -228,7 +228,7 @@ const modules = ref([
   height: fit-content;
   width: max-content;
   width: 100%;
-  background-color: rgb(22, 56, 128);
+ background: linear-gradient(90deg, #003087 33%, #000C21 100%);
   display: flex;
   justify-content: center;
   margin: auto;

@@ -20,15 +20,19 @@ function selectWeight(weight) {
 
 // image backgrounds
 const weightImages = {
-  250: '/productimgs/0.webp',
-  600: '/productimgs/0.webp',
-  1350: '/productimgs/0.webp',
+  250: 'https://a.storyblok.com/f/230581/672x421/2ae31882e5/mir250-fallbackteaser.png/m/',
+  600: 'https://a.storyblok.com/f/230581/672x421/347d9337e1/mir600-fallbackteaser.png/m/',
+  1350: 'https://a.storyblok.com/f/230581/672x421/bdb745e5ae/mir1350-fallbackteaser.png/m/',
 }
 </script>
 
 <template>
   <div class="match-step">
-    <h2>Select Max Weight Capacity</h2>
+    <div class="weightText">
+      <h2>Select Max Weight Capacity</h2>
+    <p>How much weight do you need to move? </p>
+</div>
+    
     <!-- buttons rendered for each weight option -->
       <div class="weight-wrapper">
         <button
@@ -58,6 +62,7 @@ const weightImages = {
     flex-direction: column;
     align-items: center;
     gap: 1rem;
+    background: linear-gradient(90deg, #003087 33%, #000C21 100%);
   }
 
   .weight-wrapper{
@@ -65,7 +70,7 @@ const weightImages = {
     flex-wrap: wrap;
     justify-content: center;
     gap: 1rem;
-    max-width: 100%;
+    max-width: 75%;
   }
 
   button {
@@ -100,6 +105,16 @@ button > * {
   button:hover {
     background-color: #e0e0e0;
   }
+  .weightText{
+    gap: 4px;
+    text-align: center;
+  }
+  .weightText p{
+   color: #fff;
+   opacity: .8;
+
+  }
+  
 
   h2 {
     color: #fff;

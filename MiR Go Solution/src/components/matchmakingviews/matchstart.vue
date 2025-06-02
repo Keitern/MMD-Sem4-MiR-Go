@@ -34,6 +34,10 @@
     align-items: center;
     height: 100%;
 }
+.match-wrapper p{
+    color: #ffffff;
+    opacity:.8 ;
+}
   .match-step {
     display: flex;
     flex-direction: column;
