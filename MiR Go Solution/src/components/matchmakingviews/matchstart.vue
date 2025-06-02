@@ -5,11 +5,21 @@
 
 <template>
   <div class="match-wrapper">
-  <div class="match-step">
-    <h2>Welcome to MiR Go Matcher</h2>
-    <!-- when button is clicked, emit 'next' to signal the parent (mirgo) to go next -->
-    <button @click="$emit('next')">Start Matching</button>
-  </div>
+    <div class="match-step">
+        <h2>Not sure where to begin?</h2>
+        <p>Our 3-step matchmaking system is designed to help you find the 
+        appropriate top-modules for your task!</p>
+        <div class="pictureButton">
+            <!-- when button is clicked, emit 'next' to signal the parent (mirgo) to go next -->
+            <div class="imgwrapper">
+                <img src="/productimgs/0.webp" alt="">
+            </div>
+            <div class="buttonWrap">
+                <p>Tell us a little bit about the work you want completed, and we will find the best solutions for you needs</p>
+                <button @click="$emit('next')">Start Matching</button>
+            </div>
+        </div>
+    </div>
   </div>
 </template>
 
@@ -17,6 +27,7 @@
 <style scoped>
 
 .match-wrapper{
+    width: max-content;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -28,6 +39,34 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 20px;
+  }
+  .pictureButton{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    gap: 32px;
+  }
+  .imgwrapper{
+    display: flex;
+  }
+  .imgwrapper img{
+    display: flex;
+    max-width: 466px;
+    max-height: 315px;
+    background-color: aqua;
+
+  }
+  .buttonWrap{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    max-width: 466px;
+    text-align: center;
+    gap: 20px;
+
   }
 
   button {

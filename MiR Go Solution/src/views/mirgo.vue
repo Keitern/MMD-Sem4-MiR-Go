@@ -225,8 +225,9 @@ const modules = ref([
 <style scoped>
 
 .mirgo-matchmaking{
-  height: 75vh;
-  width: 80%;
+  height: fit-content;
+  width: max-content;
+  width: 100%;
   background-color: rgb(22, 56, 128);
   display: flex;
   justify-content: center;
@@ -238,11 +239,13 @@ const modules = ref([
   border-radius: 8px;
 }
 
-.match-container-scrollable {
+/* .match-container-scrollable {
   max-height: 100%;
   overflow-y: auto;
   padding-right: 0.5rem;
-}
+  width: max-content;
+  width : 1000px;
+} */
 
 /* Optional: prettier scrollbar */
 .match-container-scrollable::-webkit-scrollbar {
