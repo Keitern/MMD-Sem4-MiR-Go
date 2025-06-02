@@ -41,7 +41,17 @@ const industryImages = {
 
 <template>
   <div class="match-step">
+    <div class="line-row">
+    <hr class="linefill" />
+    <hr class="lineempty" />
+    <hr class="lineempty" />
+    </div>
+
+    <div class="headertext">
     <h2>Select Industry</h2>
+    <h3> This tells us what kind of environment we need to accommodate! </h3>
+    </div>
+
     <div class="industry-wrapper">
       <!-- renders buttons, 
        ensures "Other" appears last 
@@ -57,7 +67,7 @@ const industryImages = {
         }"
       >
       <!-- takes from json the exact string to display -->
-        {{ industry }}
+        <div>{{ industry }}</div>
       </button>
     </div>
   </div>
@@ -74,53 +84,97 @@ const industryImages = {
   gap: 1rem;
 }
 
+.match-step h3{
+  color: #fff;
+  font-weight: 300;
+}
+
 .industry-wrapper{ 
   display: flex;
+  flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
+  align-items: center;
   gap: 1rem;
-  max-width: 50vw;
+  max-width: 68%;
 }
 
 button {
-  flex: 0 0 calc(33.33% - 1rem); /* Three per row with spacing */
-  box-sizing: border-box;
-  padding: 0.75rem 1.5rem;
+  flex: calc(33.33% - 1rem); /* Three per row with spacing */
   border-radius: 0px;
-  color: white;
-  background-color: #eee;
+  border: 0;
   cursor: pointer;
-  border: 1px solid #ccc;
   font-size: 1rem;
-  text-align: center;
-  height: 15vh;
+  height: 13vh;
   position: relative;
   z-index: 0;
+  opacity: 85%;
+  padding: 0;
+  margin: 0;
+  display: flex;
 }
 
-button strong {
-  color:white;
+button:hover {
+  opacity: 100%;
+  transition: 0.2s;
+  box-shadow:
+    0 0 12px rgba(12, 9, 49, 0.6),     
+    0 0 12px rgba(114, 199, 231, 0.8)
 }
 
-button::after {
-  content: "";
-  position: absolute;
-  inset: 0;
-  background: rgba(0, 0, 0, 0.5); /* Dark overlay */
+button > div{
+  display: flex;
+  width: 100%;
+  height: 4em;
+  padding: 0 1.5vw;
+  align-self: flex-end;
+  text-align: left;
+  justify-content: left;
+  align-items: center;
+  background-color: rgb(0, 0, 0, 0.5);
+  color: white;
+  opacity: 200%;
   z-index: -1;
-}
 
-button > * {
-  position: relative;
-  z-index: 1;
-
+  font-family: 'Open sans', sans-serif;
+  font-weight: 400;
 }
 
 h2 {
   color: #fff;
 }
 
-p{
-  color: #fff;
+.headertext{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
+
+/* progress lines */
+.line-row {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  width: 68%;
+  margin-top: 1rem;
+}
+
+.linefill {
+  flex: 5;
+  border: none;
+  height: 4px;
+  background-color:#1A76BC;
+  border-radius: 2px;
+  max-width: 33%;
+}
+.lineempty {
+  flex: 5;
+  border: none;
+  height: 4px;
+  background-color: #CBEEFA;
+  border-radius: 2px;
+  max-width: 33%;
+}
+
 </style>

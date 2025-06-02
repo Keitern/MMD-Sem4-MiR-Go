@@ -12,7 +12,15 @@
   line-height: 1.5;
   font-weight: 400;
   color: rgba(255, 255, 255, 0.87);
+  color: rgb(12, 9, 49);
+  color: rgb(0, 48, 135);
+  color: rgb(86, 160, 211);
+  color: rgb(114, 199, 231);
+  color: rgb(173, 175, 175);
+  color: rgb(232, 231, 233) "Light Grey";
 }
+
+
 
 /* Layout */
 .mir-go-page {
@@ -29,28 +37,26 @@ h1, h2, h3 {
 }
 
 h1 {
-  font-size: 2em;
+  font-size: 60px;
+  line-height: 66px;
 }
 
 h2 {
-  font-size: 30px;
+  font-size: 36px;
+  line-height: 36px;
 }
 
 h3 {
   font-size: 22px;
+  line-height: 27px;
 }
 
 /* Text */
 p {
-  font-size: 16px;
+  font-size: 14px;
   font-family: 'Open Sans', sans-serif;
-  font-weight: 300;
-  margin: 0;
-}
-
-b {
-  font-weight: 500;
-}
+  line-height: 20px;
+  }
 
 /* Links */
 a {

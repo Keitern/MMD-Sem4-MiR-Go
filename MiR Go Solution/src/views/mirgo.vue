@@ -224,24 +224,22 @@ const modules = ref([
 
 <style scoped>
 
-.mirgo-matchmaking{
-  height: 75vh;
-  width: 80%;
-  background-color: rgb(22, 56, 128);
+.mirgo-matchmaking {
+  height: 66vh;
+  width: 75vw;
+  background: linear-gradient(to right, #0C0931, #003087);
   display: flex;
   justify-content: center;
   margin: auto;
-
   overflow: hidden;
   padding: 1rem;
   border: 1px solid #ddd;
-  border-radius: 8px;
 }
 
 .match-container-scrollable {
   max-height: 100%;
+  max-width: 100%;
   overflow-y: auto;
-  padding-right: 0.5rem;
 }
 
 /* Optional: prettier scrollbar */

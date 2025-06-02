@@ -29,24 +29,25 @@ const filteredProducts = computed(() => {
     <button @click="props.onReset">Start Over</button>
 
     <!-- makes card for all -->
-<div class="products">
-  <div class="product-card"
-    v-for="product in filteredProducts"
-    :key="product.id"
-    :style="{ backgroundImage: `url(${product.image})` }"
-  >
-    <div class="overlay"></div> <!-- Dark overlay covering entire card -->
-    <div class="product-card-content">
-      <h3>{{ product.name }}</h3>
-      <p><strong>Industry:</strong> {{ product.industry.join(', ') }}</p>
-      <p><strong>Capacity:</strong> {{ product.capacity.join(', ') }} kg</p>
-      <p><strong>Function:</strong> {{ product.function }}</p>
+    <div class="products">
+      <div class="product-card"
+        v-for="product in filteredProducts"
+        :key="product.id"
+        :style="{ backgroundImage: `url(${product.image})` }">
+        <div class="overlay"></div> <!-- Dark overlay covering entire card -->
+        <div class="product-card-content">
+          <h3>{{ product.name }}</h3>
+          <p><strong>Industry:</strong> {{ product.industry.join(', ') }}</p>
+          <p><strong>Capacity:</strong> {{ product.capacity.join(', ') }} kg</p>
+          <p><strong>Function:</strong> {{ product.function }}</p>
+        </div>
+
+        
+      </div>
     </div>
-  </div>
-</div>
-    <!-- if no results matched -->
-    <p v-if="filteredProducts.length === 0">No matching products found.</p>
-  </div>
+        <!-- if no results matched -->
+        <p v-if="filteredProducts.length === 0">No matching products found.</p>
+      </div>
 
 </template>
 
@@ -57,53 +58,64 @@ const filteredProducts = computed(() => {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: flex-start; 
-  max-height: 100vh; 
   width: 100%;
+  padding-top: 3vh;
   box-sizing: border-box;
-  padding: 3rem; /* Add space if needed for scrollbar */
-
 }
 
 .products {
   display: flex;
   flex-wrap: wrap;
   gap: 1rem;
-  justify-content: center;
+  width: 68%;
   margin-top: 1rem;
-
+  padding-bottom: 5vh;
+  box-sizing: border-box;
 }
 
 .product-card {
-  position: relative;
+  flex: calc(33.333% - 1rem);
+  max-width: 32%;
+  height: 20vh;
   background-size: cover;
   background-position: center;
-  color: white;
-  width: 15vw;
-  height: 20vh;
-  border-radius: 0px;
+  position: relative;
   overflow: hidden;
   cursor: pointer;
   transition: transform 0.2s ease;
+  box-sizing: border-box;
 }
 
-
-.overlay {
-  position: absolute;
-  inset: 0;
-  background-color: rgba(0, 0, 0, 0.6);
-  z-index: 1;
+.product-card:hover {
+  box-shadow:
+    0 0 12px rgba(12, 9, 49, 0.6),
+    0 0 12px rgba(114, 199, 231, 0.8);
 }
 
 .product-card-content {
   position: relative;
   z-index: 2;
-  padding: 1rem;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
   height: 100%;
-  transition: all 0.3s ease;
+  color: rgb(0, 48, 135);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.product-card:hover .product-card-content {
+  justify-content: flex-start;
+  background-color: rgba(0, 0, 0, 0.66);
+}
+
+.product-card h3{
+  color: rgb(0, 0, 0); 
+  font-weight: 600;
+  background-color: rgba(255, 255, 255, 0.5); /* Black background initially */
+  width: 100%;
+  height: fit-content;
+  padding: 1rem;
+  font-size: 20px;
 }
 
 .product-card-content p {
@@ -111,48 +123,44 @@ const filteredProducts = computed(() => {
   height: 0;
   overflow: hidden;
   transition: opacity 0.3s ease, height 0.3s ease;
-  margin: 0;
+  font-size: 12px;
+  padding: 0 1rem 0 1rem;
 }
 
-.product-card-content strong {
-  color: #ffffff;
-  font-weight: 400;
+.product-card:hover .product-card-content h3{
+  background-color: rgba(0, 0, 0, 0);
+  width: 100%;
+  height: fit-content;
+  padding: 0.5rem 1rem 0rem 1rem;
 }
 
-.product-card-content h3 {
-  color: #ffffff;
-  margin-bottom: 0.5rem;
-}
-
-/* show info on hover */
 .product-card:hover .product-card-content p {
   opacity: 1;
   height: auto;
   margin-top: 0.25rem;
-  color: white;
-  font-size: 12px;
+}
+
+.product-card:hover .product-card-content {
+  background-color: rgba(0, 0, 0, 0.66); /* Show background on hover */
+}
+
+.product-card:hover .product-card-content h3,
+.product-card:hover .product-card-content p,
+.product-card:hover .product-card-content strong {
+  color: white; /* Turn text white on hover */
 }
 
 h2 {
-  color: #ffffff;
-}
-
-h3 {
-  font-size: 1.15em;
-  font-weight: 400;
+  color: white;
 }
 
 button {
-  color: #ffffff;
+  color: white;
   background-color: #005cbf;
   padding: 0.5rem 1.2rem;
   border-radius: 6px;
   border: none;
   cursor: pointer;
   margin-top: 1rem;
-}
-
-p{
-  color: white;
 }
 </style>

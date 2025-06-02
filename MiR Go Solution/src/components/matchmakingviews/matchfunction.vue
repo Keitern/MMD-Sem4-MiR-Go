@@ -21,13 +21,9 @@ const availableFunctions = computed(() => {
 
 function select(func) {
   selectedFunction.value = func // updates internal selected function
+  emit('selectFunction', func === 'I don’t know' ? null : func)
 }
 
-
-  // emits null if "I don’t know" is selected
-function goToResults() {
-  emit('selectFunction', selectedFunction.value === 'I don’t know' ? null : selectedFunction.value)
-}
 
 
 // image backgrounds
@@ -49,97 +45,157 @@ const functionImages = {
 
 <template>
   <div class="match-step">
-    <h2>Select a Function</h2>
+    <!-- Progress lines -->
+    <div class="line-row">
+      <hr class="linefill" />
+      <hr class="linefill" />
+      <hr class="linefill" />
+    </div>
 
-    <!-- creates card for each function -->
+    <!-- Header text -->
+    <div class="headertext">
+      <h2>Select Module Function</h2>
+      <h3>What kind of task do you need solved?</h3>
+    </div>
+
+    <!-- Function cards -->
     <div class="function-wrapper">
-      <div class="function-card" 
-        v-for="func in availableFunctions" :key="func":class="{ selected: selectedFunction === func }" @click="select(func)"
-          :style="{
+      <button
+        v-for="func in availableFunctions"
+        :key="func"
+        @click="select(func)"
+        :class="{ unknown: func === 'I don’t know' }"
+        :style="{
           backgroundImage: `url(${functionImages[func] || ''})`,
           backgroundSize: 'cover',
           backgroundPosition: 'center',
-        }" >
-        <p>{{ func }}</p>
-      </div>
+        }"
+      >
+        <div>{{ func }}</div>
+      </button>
     </div>
-
-    <!-- button disable until selected function -->
-    <button @click="goToResults" :disabled="!selectedFunction">
-      See Results
-    </button>
   </div>
 </template>
 
 <style scoped>
 .match-step {
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  gap: 1rem;
+}
+
+.match-step h2 {
+  color: #fff;
+}
+
+.match-step h3 {
+  color: #fff;
+  font-weight: 300;
+}
+
+.headertext {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .function-wrapper {
   display: flex;
+  flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 1rem;
-  margin: 1rem 0;
-  max-width: 100%;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.function-card {
-  flex: 0 1 calc(33.333% - 1rem); /* 3 cards per row */
-  height: 15vh;
-  display: flex;
   align-items: center;
-  justify-content: center;
-  border: 1px solid transparent;
-  border-radius: 0px;
-  border-color: #005cbf;
-  cursor: pointer;
-  transition: border-color 0.3s ease, background-color 0.2s;
-  text-align: center;
-  position: relative;
-  z-index: 0;
-}
-
-.function-card p{
-  font-size:1rem;
-  font-weight: 600;
-  color: white;
-}
-
-.function-card:hover {
-  border-color: #ffffff;
-}
-
-.function-card.selected {
-  border-color: #007bff;
-  background-color: #ffffff2f;
-}
-
-.function-card::after {
-  content: "";
-  position: absolute;
-  inset: 0;
-  background: rgba(0, 0, 0, 0.5); /* Dark overlay */
-  z-index: -1;
+  gap: 1rem;
+  max-width: 68%;
 }
 
 button {
-  padding: 0.5rem 1.25rem;
-  border: none;
-  background-color: #005cbf;
-  color: white;
-  border-radius: 6px;
+  flex: calc(33.33% - 1rem); /* 3 per row with spacing */
+  height: 13vh;
+  border-radius: 0px;
+  border: 0;
   cursor: pointer;
+  font-size: 1rem;
+  position: relative;
+  z-index: 0;
+  opacity: 85%;
+  padding: 0;
+  margin: 0;
+  display: flex;
 }
 
-button:disabled {
-  background-color: #007bff;
-  cursor: not-allowed;
+button:hover {
+  opacity: 100%;
+  transition: 0.2s;
+  box-shadow:
+    0 0 12px rgba(12, 9, 49, 0.6),
+    0 0 12px rgba(114, 199, 231, 0.8);
 }
-h2{
-  color: #fff;
+
+button > div {
+  display: flex;
+  width: 100%;
+  height: 4em;
+  padding: 0 1.5vw;
+  align-self: flex-end;
+  text-align: left;
+  justify-content: left;
+  align-items: center;
+  background-color: rgb(0, 0, 0, 0.5);
+  color: white;
+  opacity: 200%;
+  z-index: -1;
+
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+}
+
+button.unknown {
+  display: flex;
+  width: 100%;
+  height: 13vh;
+  align-self: center;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  color: white;
+}
+button.unknown > div{
+  display: flex;
+  width: 100%;
+  height: 13vh;
+  align-self: center;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(0, 48, 135, 0.75);
+}
+
+/* progress lines */
+.line-row {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  width: 68%;
+  margin-top: 1rem;
+}
+
+.linefill {
+  flex: 5;
+  border: none;
+  height: 4px;
+  background-color:#1A76BC;
+  border-radius: 2px;
+  max-width: 33%;
+}
+.lineempty {
+  flex: 5;
+  border: none;
+  height: 4px;
+  background-color: #CBEEFA;
+  border-radius: 2px;
+  max-width: 33%;
 }
 </style>

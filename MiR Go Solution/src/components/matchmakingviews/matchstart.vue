@@ -5,10 +5,19 @@
 
 <template>
   <div class="match-wrapper">
-  <div class="match-step">
-    <h2>Welcome to MiR Go Matcher</h2>
+  <div class="match-text">
+    <h2>Not sure where to start?</h2>
+    <h3> Tell us a little bit about the work you want completed, 
+      <br>and we will find the best solutions for your needs </h3>
     <!-- when button is clicked, emit 'next' to signal the parent (mirgo) to go next -->
-    <button @click="$emit('next')">Start Matching</button>
+    <button @click="$emit('next')">Start Matching
+      <div> > </div>
+    </button>
+  </div>
+  <div class="videowrapper">
+    <div class="videoplaceholder">
+      video placeholder
+    </div>
   </div>
   </div>
 </template>
@@ -17,29 +26,69 @@
 <style scoped>
 
 .match-wrapper{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  gap: 10vw;
 }
-  .match-step {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
+  
+.videoplaceholder{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.videowrapper{
+  width: 25vw;
+  height: 33vh;
+  background-color: #ADAFAF;
+  opacity: 66%;
+}
+.match-text {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  gap: 3vh;
+}
 
-  button {
-    padding: 0.75rem 1.5rem;
-    font-size: 1.1rem;
-    background-color: #005cbf;
-    color: white;
-    border: none;
-    border-radius: 8px;
-    cursor: pointer;
-  }
-  h2{
-  color:#ffffff
+.match-text h3{
+  color: white;
+  text-align: center;
+}
+
+button {
+  font-family: "Oscine", sans-serif;
+  font-size: 24px;
+  color:#72C7E7;
+  border: none;
+  cursor: pointer;
+  align-self: center;
+  margin: 0;
+  padding: 8px;
+  display: flex;
+  flex-direction: row;
+}
+
+button > div{
+  color: #72C7E7;
+}
+
+button:hover{
+  color:#56A0D3;
+  transition: 0.2s;
+}
+
+button:hover > div{
+  color:#56A0D3;
+  transition: 0.2s;
+  transform: translateX(6px);
+}
+
+h2{
+color:#ffffff
 }
 </style>
