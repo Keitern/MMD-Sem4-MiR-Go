@@ -98,14 +98,7 @@ const industryImages = {
   gap: 1rem;
   max-width: 68%;
 }
-.industryText{
-display: flex;
-text-align: center;
-flex-direction: column;
-}
-.industryText p{
-    opacity:.8;
-}
+
 
 button {
   flex: calc(33.33% - 1rem); /* Three per row with spacing */
