@@ -75,7 +75,8 @@ const filteredProducts = computed(() => {
 
 .product-card {
   flex: calc(33.333% - 1rem);
-  max-width: 32%;
+  max-width: fit-content;
+  min-width: 32%;
   height: 20vh;
   background-size: cover;
   background-position: center;
