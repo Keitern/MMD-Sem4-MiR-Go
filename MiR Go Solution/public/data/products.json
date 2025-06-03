@@ -2,7 +2,7 @@
 
   {
     "id": 0,
-    "name": "noll mobile-air-disinfection-top-module",
+    "name": "Noll Mobile-air-disinfection-top-module",
     "industry": ["Healthcare"],
     "capacity": [250,600,1350],
     "function": "Disinfection",
@@ -11,7 +11,7 @@
 
   {
     "id":1,
-    "name": "nord Modules - SC 200-480",
+    "name": "Nord Modules - SC 200-480",
     "industry": ["Electronics","Other"],
     "capacity": [250],
     "function": "Shelves",
@@ -20,7 +20,7 @@
 
   {
     "id":2,
-    "name": "kK-tech - PS1 Pallet fork",
+    "name": "KK-tech - PS1 Pallet fork",
     "industry": ["Electronics","Other"],
     "capacity": [250],
     "function": "Shelves",
@@ -28,7 +28,7 @@
   },
   {
     "id":3,
-    "name": "rOEQ - S-Cart300",
+    "name": "ROEQ - S-Cart300",
     "industry": ["Electronics","Other"],
     "capacity": [250],
     "function": "Shelves",
@@ -36,7 +36,7 @@
   },
   {
     "id":4,
-    "name": "rOEQ - S-Cart300 Ext",
+    "name": "ROEQ - S-Cart300 Ext",
     "industry": ["Electronics","Other"],
     "capacity": [250],
     "function": "Shelves",
@@ -45,7 +45,7 @@
 
   {
     "id":5,
-    "name": "lifeline connected cabinet",
+    "name": "Lifeline Connected cabinet",
     "industry": ["Electronics","Other"],
     "capacity": [250],
     "function": "Shelves",
@@ -53,7 +53,7 @@
   },
   {
     "id":6,
-    "name": "rOEQ - S-Cart800/1500",
+    "name": "ROEQ - S-Cart800/1500",
     "industry": ["Electronics","Other"],
     "capacity": [600,1350],
     "function": "Shelves",
@@ -61,7 +61,7 @@
   },
   {
     "id":7,
-    "name": "mossman tebbs-modular-cart",
+    "name": "Mossman Tebbs-modular-cart",
     "industry": ["Electronics","Other"],
     "capacity": [250],
     "function": "Shelves",
@@ -69,7 +69,7 @@
   },
   {
     "id":8,
-    "name": "novaticLab - NOVAMove Porter",
+    "name": "NovaticLab - NOVAMove Porter",
     "industry": ["Electronics","Other"],
     "capacity": [250],
     "function": "Shelves",
@@ -77,7 +77,7 @@
   },
   {
     "id":9,
-    "name": "rOEQ - S-Cart500 Ext",
+    "name": "ROEQ - S-Cart500 Ext",
     "industry": ["Electronics","Other"],
     "capacity": [250],
     "function": "Shelves",
@@ -86,7 +86,7 @@
 
   {
     "id":12,
-    "name": "rOEQ - Cart300",
+    "name": "ROEQ - Cart300",
     "industry": ["Other","Electronics"],
     "capacity": [250],
     "function": "Shelves",
@@ -94,7 +94,7 @@
   },
   {
     "id":13,
-    "name": "rOEQ - TMS-C300 Ext",
+    "name": "ROEQ - TMS-C300 Ext",
     "industry": ["Other"],
     "capacity": [250],
     "function": "Anchoring Devices",
@@ -102,7 +102,7 @@
   },
   {
     "id":14,
-    "name": "rOEQ - TMC300 Ext",
+    "name": "ROEQ - TMC300 Ext",
     "industry": ["Other"],
     "capacity": [250],
     "function": "Anchoring Devices",
@@ -110,7 +110,7 @@
   },
   {
     "id":15,
-    "name": "link Devices - TP250CF",
+    "name": "Link Devices - TP250CF",
     "industry": ["Other"],
     "capacity": [250],
     "function": "Anchoring Devices",
@@ -118,7 +118,7 @@
   },
   {
     "id":16,
-    "name": "rOEQ - TMS-C800",
+    "name": "ROEQ - TMS-C800",
     "industry": ["Automotive","Other"],
     "capacity": [600],
     "function": "Anchoring Devices",
@@ -126,7 +126,7 @@
   },
   {
     "id":17,
-    "name": "rOEQ - TMS-C500 Ext",
+    "name": "ROEQ - TMS-C500 Ext",
     "industry": ["Other"],
     "capacity": [250],
     "function": "Anchoring Devices",
@@ -142,7 +142,7 @@
   },
   {
     "id":19,
-    "name": "rOEQ - TMS-C1500",
+    "name": "ROEQ - TMS-C1500",
     "industry": ["Other"],
     "capacity": [1350],
     "function": "Anchoring Devices",
@@ -150,7 +150,7 @@
   },
   {
     "id":20,
-    "name": "rOEQ - TMC300",
+    "name": "ROEQ - TMC300",
     "industry": ["Other"],
     "capacity": [250],
     "function": "Anchoring Devices",
@@ -158,7 +158,7 @@
   },
   {
     "id":21,
-    "name": "nONEAD - Shelf Carrier System CB4",
+    "name": "NONEAD - Shelf Carrier System CB4",
     "industry": ["Electronics","Other"],
     "capacity": [250],
     "function": "Anchoring Devices",
@@ -166,7 +166,7 @@
   },
   {
     "id":22,
-    "name": "rOEQ - TML200",
+    "name": "ROEQ - TML200",
     "industry": ["Automotive","Other"],
     "capacity": [250],
     "function": "Lifts",
@@ -174,7 +174,7 @@
   },
   {
     "id":23,
-    "name": "nord Modules - Pallet Lift EU",
+    "name": "Nord Modules - Pallet Lift EU",
     "industry": ["Home furniture and Consumer goods","Agriculture, Machinery and Tools","Energy, Power and Safety",
   "Electronics","Automotive","Industrial and Manafacturing Solutions","Other"],
     "capacity": [600,1350],
@@ -183,7 +183,7 @@
   },
   {
     "id":24,
-    "name": "nord Modules QM220, Quick Mover",
+    "name": "Nord Modules QM220, Quick Mover",
     "industry": ["Automotive","Other"],
     "capacity": [250],
     "function": "Lifts",
@@ -191,7 +191,7 @@
   },
   {
     "id":25,
-    "name": "rOEQ - TLR750 EU - Lift 'n' Roll",
+    "name": "ROEQ - TLR750 EU - Lift 'n' Roll",
     "industry": ["Home furniture and Consumer goods","Agriculture, Machinery and Tools","Energy, Power and Safety",
   "Electronics","Automotive","Industrial and Manafacturing Solutions","Other"],
     "capacity": [600,1350],
@@ -200,7 +200,7 @@
   },
   {
     "id":26,
-    "name": "nord Modules - Pallet Lift US",
+    "name": "Nord Modules - Pallet Lift US",
     "industry": ["Home furniture and Consumer goods","Agriculture, Machinery and Tools","Energy, Power and Safety",
   "Electronics","Automotive","Industrial and Manafacturing Solutions","Other"],
     "capacity": [600,1350],
@@ -209,7 +209,7 @@
   },
   {
     "id":27,
-    "name": "mTS TEMBO",
+    "name": "MTS TEMBO",
     "industry": ["Home furniture and Consumer goods","Agriculture, Machinery and Tools","Energy, Power and Safety",
   "Electronics","Automotive","Industrial and Manafacturing Solutions","Other"],
     "capacity": [600,1350],
@@ -219,7 +219,7 @@
 
   {
     "id":28,
-    "name": "rOEQ - TML1210 EU - Pallet Lift",
+    "name": "ROEQ - TML1210 EU - Pallet Lift",
     "industry": ["Home furniture and Consumer goods","Agriculture, Machinery and Tools","Energy, Power and Safety",
   "Electronics","Automotive","Industrial and Manafacturing Solutions","Other"],
     "capacity": [600,1350],
@@ -228,7 +228,7 @@
   },
   {
     "id":29,
-    "name": "computech heavy-duty-lift-station",
+    "name": "Computech Heavy-duty-lift-station",
     "industry": ["Home furniture and Consumer goods","Agriculture, Machinery and Tools","Energy, Power and Safety",
   "Electronics","Automotive","Industrial and Manafacturing Solutions","Other"],
     "capacity": [600,1350],
@@ -237,7 +237,7 @@
   },
   {
     "id":30,
-  "name": "noll noll-lifting-unit",
+  "name": "Noll Noll-lifting-unit",
     "industry": ["Automotive","Other"],
     "capacity": [250],
     "function": "Lifts",
@@ -245,7 +245,7 @@
   },
   {
     "id":31,
-  "name": "nONEAD - Lift Top System CB3",
+  "name": "NONEAD - Lift Top System CB3",
     "industry": ["Automotive","Other"],
     "capacity": [250],
     "function": "Lifts",
@@ -253,7 +253,7 @@
   },
   {
     "id":32,
-  "name": "rOEQ TML150",
+  "name": "ROEQ TML150",
     "industry": ["Automotive","Other"],
     "capacity": [250],
     "function": "Lifts",
@@ -261,7 +261,7 @@
   },
   {
     "id":33,
-    "name": "nord Modules - PM800, Pallet Mover",
+    "name": "Nord Modules - PM800, Pallet Mover",
     "industry": ["Other"],
     "capacity": [600,1350],
     "function": "Conveyors",
@@ -270,7 +270,7 @@
 
   {
     "id":36,
-    "name": "nord Modules - PM1000, Pallet Mover",
+    "name": "Nord Modules - PM1000, Pallet Mover",
     "industry": ["Other"],
     "capacity": [600,1350],
     "function": "Conveyors",
@@ -278,7 +278,7 @@
   },
   {
     "id":37,
-    "name": "interroll - LCP AMR top module",
+    "name": "Interroll - LCP AMR top module",
     "industry": ["Other"],
     "capacity": [250],
     "function": "Conveyors",
@@ -286,7 +286,7 @@
   },
   {
     "id":38,
-    "name": "hyperion pallet-handling-conveyor",
+    "name": "Hyperion Pallet-handling-conveyor",
     "industry": ["Other"],
     "capacity": [600,1350],
     "function": "Conveyors",
@@ -294,7 +294,7 @@
   },
   {
     "id":39,
-    "name": "rOEQ TR125 Top Roller",
+    "name": "ROEQ TR125 Top Roller",
     "industry": ["Other"],
     "capacity": [250],
     "function": "Conveyors",
@@ -302,7 +302,7 @@
   },
   {
     "id":40,
-    "name": "rOEQ - TR125 Auto",
+    "name": "ROEQ - TR125 Auto",
     "industry": ["Other"],
     "capacity": [250],
     "function": "Conveyors",
@@ -310,7 +310,7 @@
   },
   {
     "id":41,
-    "name": "olirobot dual-tote-conveyor",
+    "name": "Olirobot Dual-tote-conveyor",
     "industry": ["Other"],
     "capacity": [250],
     "function": "Conveyors",
@@ -318,7 +318,7 @@
   },
   {
     "id":42,
-    "name": "mTS - ROLL CONVEYOR",
+    "name": "MTS - ROLL CONVEYOR",
     "industry": ["Other"],
     "capacity": [250],
     "function": "Conveyors",
@@ -326,7 +326,7 @@
   },
   {
     "id":43,
-    "name": "noll - PCB Magazine Feeder",
+    "name": "Noll - PCB Magazine Feeder",
     "industry": ["Other"],
     "capacity": [250],
     "function": "Conveyors",
@@ -334,7 +334,7 @@
   },
   {
     "id":44,
-    "name": "hyperion - Roller Conveyor for",
+    "name": "Hyperion - Roller Conveyor for",
     "industry": ["Other"],
     "capacity": [250],
     "function": "Conveyors",
@@ -342,7 +342,7 @@
   },
   {
     "id":45,
-    "name": "hyperion multi-zone-conveyor",
+    "name": "Hyperion Multi-zone-conveyor",
     "industry": ["Other"],
     "capacity": [600,1350],
     "function": "Conveyors",
@@ -350,7 +350,7 @@
   },
   {
     "id":46,
-    "name": "nONEAD - Telescopic Fork Orbital Mobile Cobot",
+    "name": "NONEAD - Telescopic Fork Orbital Mobile Cobot",
     "industry": ["Other"],
     "capacity": [250],
     "function": "Conveyors",
@@ -358,7 +358,7 @@
   },
   {
     "id":47,
-    "name": "truPhysics - TruLifter Mobile ",
+    "name": "TruPhysics - TruLifter Mobile ",
     "industry": ["Other"],
     "capacity": [250],
     "function": "Conveyors",
@@ -366,7 +366,7 @@
   },
   {
     "id":48,
-    "name": "rOEQ - TR500 Auto ",
+    "name": "ROEQ - TR500 Auto ",
     "industry": ["Other"],
     "capacity": [600,1350],
     "function": "Conveyors",
@@ -374,7 +374,7 @@
   },
   {
     "id":49,
-    "name": "rOEQ - TR1000 Auto",
+    "name": "ROEQ - TR1000 Auto",
     "industry": ["Other"],
     "capacity": [600,1350],
     "function": "Conveyors",
@@ -390,7 +390,7 @@
   },
   {
     "id":96,
-    "name": "rOEQ - TR1000",
+    "name": "ROEQ - TR1000",
     "industry": ["Other"],
     "capacity": [600,1350],
     "function": "Conveyors",
@@ -402,7 +402,7 @@
 
   {
     "id": 51,
-    "name": "enabled robotics - mc600",
+    "name": "Enabled robotics - MC600",
     "industry": ["Other"],
     "capacity": [600],
     "function": "Robot Arms",
@@ -410,7 +410,7 @@
   },
   {
     "id": 52,
-    "name": "enabled robotics - mc250",
+    "name": "Enabled robotics - MC250",
     "industry":  ["Other"],
     "capacity": [250],
     "function": "Robot Arms",
@@ -418,7 +418,7 @@
   },
   {
     "id": 53,
-    "name": "astech projects - robotic lab assistant", 
+    "name": "Astech projects - Robotic lab assistant", 
     "industry": ["Healthcare"],
     "capacity": [250, 600, 1350],
     "function": "Robot Arms",
@@ -426,7 +426,7 @@
   },
   {
     "id": 54,
-    "name": "nonead - ncobot2510e limited cb2",
+    "name": "Nonead - Ncobot2510e limited cb2",
     "industry": ["Logistics and Third party logistics"],
     "capacity": [250, 600, 1350],
     "function": "Robot Arms",
@@ -434,7 +434,7 @@
   },
   {
     "id": 55,
-    "name": "nord modules - ct155, cobot tower",
+    "name": "Nord Modules - CT155, Cobot tower",
     "industry": ["Other"],
     "capacity": [250],
     "function": "Robot Arms",
@@ -442,7 +442,7 @@
   },
   {
     "id": 56,
-    "name": "nord modules - wheel gate",
+    "name": "Nord Modules - Wheel gate",
     "industry": ["Logistics and Third party logistics", "Other"],
     "capacity": [250],
     "function": "Stations",
@@ -450,7 +450,7 @@
   },
   {
     "id": 57,
-    "name": "palomat - palomat amr",
+    "name": "Palomat - Palomat amr",
     "industry": ["Logistics and Third party logistics", "Other"],
     "capacity": [600, 1350],
     "function": "Stations",
@@ -458,7 +458,7 @@
   },
   {
     "id": 58,
-    "name": "nord modules - basic gate",
+    "name": "Nord Modules - Basic gate",
     "industry": ["Logistics and Third party logistics", "Other"],
     "capacity": [250],
     "function": "Stations",
@@ -466,7 +466,7 @@
   },
   {
     "id": 59,
-    "name": "nord modules - pallet rack",
+    "name": "Nord Modules - Pallet rack",
     "industry": ["Logistics and Third party logistics"],
     "capacity": [600, 1350],
     "function": "Stations",
@@ -474,7 +474,7 @@
   },
   {
     "id": 60,
-    "name": "nord modules - dock target",
+    "name": "Nord Modules - Dock target",
     "industry": ["Logistics and Third party logistics"],
     "capacity": [600, 1350],
     "function": "Stations",
@@ -482,7 +482,7 @@
   },
   {
     "id": 61,
-    "name": "autotec - stub shaft interface conveyor",
+    "name": "Autotec - Stub shaft interface conveyor",
     "industry": ["Logistics and Third party logistics"],
     "capacity": [600, 1350],
     "function": "Stations",
@@ -490,7 +490,7 @@
   },
   {
     "id": 62,
-    "name": "automated motion - conveyor dock",
+    "name": "Automated motion - Conveyor dock",
     "industry": ["Logistics and Third party logistics"],
     "capacity": [600, 1350],
     "function": "Stations",
@@ -498,7 +498,7 @@
   },
   {
     "id": 63,
-    "name": "link devices - pallet rack",
+    "name": "Link devices - Pallet rack",
     "industry": ["Logistics and Third party logistics"],
     "capacity": [600, 1350],
     "function": "Stations",
@@ -506,7 +506,7 @@
   },
   {
     "id": 64,
-    "name": "automated motion - pallet stand",
+    "name": "Automated motion - Pallet stand",
     "industry": ["Logistics and Third party logistics"],
     "capacity": [600, 1350],
     "function": "Stations",
@@ -514,7 +514,7 @@
   },
   {
     "id": 65,
-    "name": "noll - noll boxes transfer station",
+    "name": "Noll - Noll boxes transfer station",
     "industry": ["Logistics and Third party logistics"],
     "capacity": [250],
     "function": "Stations",
@@ -522,7 +522,7 @@
   },
   {
     "id": 66,
-    "name": "robotic innovation - smart pallet station lift 600",
+    "name": "Robotic Innovation - Smart pallet station lift 600",
     "industry": ["Logistics and Third party logistics"],
     "capacity": [600, 1350],
     "function": "Stations",
@@ -530,7 +530,7 @@
   },
   {
     "id": 67,
-    "name": "robotic innovation - smart pallet station floor lift 600",
+    "name": "Robotic Innovation - Smart pallet station floor lift 600",
     "industry": ["Logistics and Third party logistics"],
     "capacity": [600, 1350],
     "function": "Stations",
@@ -538,7 +538,7 @@
   },
   {
     "id": 68,
-    "name": "robotic innovation - smart pallet station lift 1250",
+    "name": "Robotic Innovation - Smart pallet station lift 1250",
     "industry": ["Logistics and Third party logistics"],
     "capacity": [600, 1350],
     "function": "Stations",
@@ -546,7 +546,7 @@
   },
   {
     "id": 69,
-    "name": "robotic innovation - smart pallet station 1250",
+    "name": "Robotic Innovation - Smart pallet station 1250",
     "industry": ["Logistics and Third party logistics"],
     "capacity": [600, 1350],
     "function": "Stations",
@@ -554,7 +554,7 @@
   },
   {
     "id": 70,
-    "name": "soco - pallet magazine palmanager fixed",
+    "name": "Soco - Pallet magazine palmanager fixed",
     "industry": ["Logistics and Third party logistics"],
     "capacity": [600, 1350],
     "function": "Stations",
@@ -562,7 +562,7 @@
   },
   {
     "id": 71,
-    "name": "alfa test-relative-markers",
+    "name": "Alfa Test-relative-markers",
     "industry": ["Other"],
     "capacity": [250, 600, 1350],
     "function": "Stations",
@@ -570,7 +570,7 @@
   },
   {
     "id": 72,
-    "name": "link devices-pallet-lift-station",
+    "name": "Link Devices-pallet-lift-station",
     "industry": ["Logistics and Third party logistics"],
     "capacity": [600, 1350],
     "function": "Stations",
@@ -578,7 +578,7 @@
   },
   {
     "id": 73,
-    "name": "olirobot - pallet rack conveyor",
+    "name": "Olirobot - Pallet rack conveyor",
     "industry": ["Logistics and Third party logistics", "Industrial and Manafacturing Solutions"],
     "capacity": [600, 1350],
     "function": "Stations",
@@ -586,7 +586,7 @@
   },
   {
     "id": 74,
-    "name": "olirobot - us pallet rack",
+    "name": "Olirobot - US pallet rack",
     "industry": ["Logistics and Third party logistics", "Other"],
     "capacity": [600, 1350],
     "function": "Stations",
@@ -594,7 +594,7 @@
   },
   {
     "id": 75,
-    "name": "olirobot - euro pallet rack",
+    "name": "Olirobot - EU pallet rack",
     "industry": ["Logistics and Third party logistics", "Industrial and Manafacturing Solutions", "Other"],
     "capacity": [600, 1350],
     "function": "Stations",
@@ -602,7 +602,7 @@
   },
   {
     "id": 76,
-    "name": "olirobot - robot conveyor docking station",
+    "name": "Olirobot - Robot conveyor docking station",
     "industry": ["Logistics and Third party logistics", "Industrial and Manafacturing Solutions"],
     "capacity": [250],
     "function": "Stations",
@@ -610,7 +610,7 @@
   },
   {
     "id": 77,
-    "name": "robotic innovation - smart pallet rack",
+    "name": "Robotic Innovation - Smart pallet rack",
     "industry": ["Logistics and Third party logistics", "Other"],
     "capacity": [600, 1350],
     "function": "Stations",
@@ -618,7 +618,7 @@
   },
   {
     "id": 78,
-    "name": "melton machine heavy duty lift station",
+    "name": "Melton machine heavy duty lift station",
     "industry": ["Logistics and Third party logistics", "Industrial and Manafacturing Solutions", "Other"],
     "capacity": [600, 1350],
     "function": "Stations",
@@ -626,7 +626,7 @@
   },
   {
     "id": 79,
-    "name": "melton machine autonomous mobile robot conveyor interface",
+    "name": "Melton machine autonomous mobile robot conveyor interface",
     "industry": ["Logistics and Third party logistics", "Other"],
     "capacity": [600, 1350],
     "function": "Stations",
@@ -634,7 +634,7 @@
   },
   {
     "id": 80,
-    "name": "hyperion - pallet stand",
+    "name": "Hyperion - Pallet stand",
     "industry": ["Other"],
     "capacity": [600, 1350],
     "function": "Stations",
@@ -642,7 +642,7 @@
   },
   {
     "id": 81,
-    "name": "mts - pallet lifter",
+    "name": "MTS - Pallet lifter",
     "industry": ["Logistics and Third party logistics", "Other"],
     "capacity": [250, 600, 1350],
     "function": "Stations",
@@ -650,7 +650,7 @@
   },
   {
     "id": 82,
-    "name": "roeq easy-pull-out docking",
+    "name": "ROEQ easy-pull-out docking",
     "industry": ["Other"],
     "capacity": [250],
     "function": "Stations",
@@ -658,7 +658,7 @@
   },
   {
     "id": 83,
-    "name": "roeq - pr250",
+    "name": "ROEQ - PR250",
     "industry": ["Other"],
     "capacity": [250],
     "function": "Stations",
@@ -666,7 +666,7 @@
   },
   {
     "id": 84,
-    "name": "roeq - precision docking",
+    "name": "ROEQ - Precision docking",
     "industry": ["Other"],
     "capacity": [250],
     "function": "Stations",
@@ -674,7 +674,7 @@
   },
   {
     "id": 85,
-    "name": "flexware - lift",
+    "name": "Flexware - Lift",
     "industry": ["Other"],
     "capacity": [250, 600, 1350],
     "function": "Communication",
@@ -682,7 +682,7 @@
   },
   {
     "id": 86,
-    "name": "inorbit - robot operations platform",
+    "name": "Inorbit - Robot operations platform",
     "industry": ["Other"],
     "capacity": [250, 600, 1350],
     "function": "Communication",
@@ -690,7 +690,7 @@
   },
   {
     "id": 87,
-    "name": "ai automation - ai elevator system with opc ua",
+    "name": "Ai automation - AI elevator system with opc ua",
     "industry": ["Other"],
     "capacity": [250, 600, 1350],
     "function": "Communication",
@@ -698,7 +698,7 @@
   },
   {
     "id": 88,
-    "name": "intelligent systems - next step",
+    "name": "Intelligent systems - Next step",
     "industry": ["Other"],
     "capacity": [250, 600, 1350],
     "function": "Communication",
@@ -706,7 +706,7 @@
   },
   {
     "id": 89,
-    "name": "svt - softbot platform",
+    "name": "SVT - Softbot platform",
     "industry": ["Other"],
     "capacity": [250, 600, 1350],
     "function": "Communication",
@@ -714,7 +714,7 @@
   },
   {
     "id": 90,
-    "name": "trio mobil - amr safety solutions",
+    "name": "Trio mobil - AMR safety solutions",
     "industry": ["Other"],
     "capacity": [250, 600, 1350],
     "function": "Communication",
@@ -722,7 +722,7 @@
   },
   {
     "id": 91,
-    "name": "sorion - fleetware",
+    "name": "Sorion - Fleetware",
     "industry": ["Other"],
     "capacity": [250, 600, 1350],
     "function": "Communication",
@@ -730,7 +730,7 @@
   },
   {
     "id": 92,
-    "name": "locixx - connectedthinks",
+    "name": "Locixx - Connectedthinks",
     "industry": ["Other"],
     "capacity": [250, 600, 1350],
     "function": "Communication",
@@ -738,7 +738,7 @@
   },
   {
     "id": 93,
-    "name": "gibas - rewind",
+    "name": "Gibas - Rewind",
     "industry": ["Other"],
     "capacity": [250, 600, 1350],
     "function": "Communication",
@@ -746,7 +746,7 @@
   },
   {
     "id": 94,
-    "name": "enabled robotics - er-ability",
+    "name": "Enabled robotics - ER-ability",
     "industry": ["Other"],
     "capacity": [250],
     "function": "Communication",
@@ -754,7 +754,7 @@
   },
   {
     "id": 95,
-    "name": "meili robots - meili fms",
+    "name": "Meili robots - Meili fms",
     "industry": ["Other"],
     "capacity": [250, 600, 1350],
     "function": "Communication",
