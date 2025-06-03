@@ -15,7 +15,7 @@
     "industry": ["Electronics","Other"],
     "capacity": [250],
     "function": "Shelves",
-    "image": "/public/productimgs/Nord Modules-SC200-480.webp"
+    "image": "/public/productimgs/1.webp"
   },
 
   {
@@ -24,7 +24,7 @@
     "industry": ["Electronics","Other"],
     "capacity": [250],
     "function": "Shelves",
-    "image": "/public/productimgs/KK-tech - PS1 Pallet fork.webp"
+    "image": "/public/productimgs/2.webp"
   },
   {
     "id":3,
@@ -32,7 +32,7 @@
     "industry": ["Electronics","Other"],
     "capacity": [250],
     "function": "Shelves",
-    "image": "/public/productimgs/Nord Modules-SC200-480.webp"
+    "image": "/public/productimgs/3.webp"
   },
   {
     "id":4,
@@ -40,7 +40,7 @@
     "industry": ["Electronics","Other"],
     "capacity": [250],
     "function": "Shelves",
-    "image": "/public/productimgs/ROEQ - S-Cart300 Ext.webp"
+    "image": "/public/productimgs/4.webp"
   },
 
   {
@@ -49,7 +49,7 @@
     "industry": ["Electronics","Other"],
     "capacity": [250],
     "function": "Shelves",
-    "image": "/public/productimgs/lifeline connected-cabinet.webp"
+    "image": "/public/productimgs/5.webp"
   },
   {
     "id":6,
@@ -57,7 +57,7 @@
     "industry": ["Electronics","Other"],
     "capacity": [600,1350],
     "function": "Shelves",
-    "image": "/public/productimgs/ROEQ-S-Cart8001500.webp"
+    "image": "/public/productimgs/6.webp"
   },
   {
     "id":7,
@@ -65,7 +65,7 @@
     "industry": ["Electronics","Other"],
     "capacity": [250],
     "function": "Shelves",
-    "image": "/public/productimgs/mossman tebbs-modular-cart.webp"
+    "image": "/public/productimgs/7.webp"
   },
   {
     "id":8,
@@ -73,7 +73,7 @@
     "industry": ["Electronics","Other"],
     "capacity": [250],
     "function": "Shelves",
-    "image": "/public/productimgs/NovaticLab - NOVAMove Porter.webp"
+    "image": "/public/productimgs/8.webp"
   },
   {
     "id":9,
@@ -81,23 +81,7 @@
     "industry": ["Electronics","Other"],
     "capacity": [250],
     "function": "Shelves",
-    "image": "/public/productimgs/ROEQ - S-Cart500 Ext.webp"
-  },
-  {
-    "id":10,
-    "name": "rOEQ - S-Cart300W",
-    "industry": ["Electronics","Other"],
-    "capacity": [250],
-    "function": "Shelves",
-    "image": "/public/productimgs/ROEQ - S-Cart300W.webp"
-  },
-  {
-    "id":11,
-    "name": "rOEQ - S-Cart300W",
-    "industry": ["Electronics","Other"],
-    "capacity": [600,1350],
-    "function": "Shelves",
-    "image": "/public/productimgs/ROEQ - S-Cart300W.webp"
+    "image": "/public/productimgs/9.webp"
   },
 
   {
@@ -106,7 +90,7 @@
     "industry": ["Other","Electronics"],
     "capacity": [250],
     "function": "Shelves",
-    "image": "/public/productimgs/ROEQ - Cart300.webp"
+    "image": "/public/productimgs/12.webp"
   },
   {
     "id":13,
@@ -114,7 +98,7 @@
     "industry": ["Other"],
     "capacity": [250],
     "function": "Anchoring Devices",
-    "image": "/public/productimgs/ROEQ - TMS-C300 Ext.webp"
+    "image": "/public/productimgs/13.webp"
   },
   {
     "id":14,
@@ -122,7 +106,7 @@
     "industry": ["Other"],
     "capacity": [250],
     "function": "Anchoring Devices",
-    "image": "/public/productimgs/ROEQ - TMC300 Ext.webp"
+    "image": "/public/productimgs/14.webp"
   },
   {
     "id":15,
@@ -130,7 +114,7 @@
     "industry": ["Other"],
     "capacity": [250],
     "function": "Anchoring Devices",
-    "image": "/public/productimgs/Link Devices - TP250CF.webp"
+    "image": "/public/productimgs/15.webp"
   },
   {
     "id":16,
@@ -138,7 +122,7 @@
     "industry": ["Automotive","Other"],
     "capacity": [600],
     "function": "Anchoring Devices",
-    "image": "/public/productimgs/ROEQ - TMS-C800.webp"
+    "image": "/public/productimgs/16.webp"
   },
   {
     "id":17,
@@ -146,7 +130,7 @@
     "industry": ["Other"],
     "capacity": [250],
     "function": "Anchoring Devices",
-    "image": "/public/productimgs/ROEQ - TMS-C500 Ext.webp"
+    "image": "/public/productimgs/17.webp"
   },
   {
     "id":18,
@@ -154,7 +138,7 @@
     "industry": ["Other"],
     "capacity": [250],
     "function": "Anchoring Devices",
-    "image": "/public/productimgs/Idec - MT1A-W250.webp"
+    "image": "/public/productimgs/18.webp"
   },
   {
     "id":19,
@@ -162,7 +146,7 @@
     "industry": ["Other"],
     "capacity": [1350],
     "function": "Anchoring Devices",
-    "image": "/public/productimgs/ROEQ - TMS-C1500.webp"
+    "image": "/public/productimgs/19.webp"
   },
   {
     "id":20,
@@ -170,7 +154,7 @@
     "industry": ["Other"],
     "capacity": [250],
     "function": "Anchoring Devices",
-    "image": "/public/productimgs/ROEQ - TMC300.webp"
+    "image": "/public/productimgs/20.webp"
   },
   {
     "id":21,
@@ -178,7 +162,7 @@
     "industry": ["Electronics","Other"],
     "capacity": [250],
     "function": "Anchoring Devices",
-    "image": "/public/productimgs/NONEAD - Shelf Carrier System CB4.webp"
+    "image": "/public/productimgs/21.webp"
   },
   {
     "id":22,
@@ -186,7 +170,7 @@
     "industry": ["Automotive","Other"],
     "capacity": [250],
     "function": "Lifts",
-    "image": "/public/productimgs/ROEQ - TML200.webp"
+    "image": "/public/productimgs/22.webp"
   },
   {
     "id":23,
@@ -195,7 +179,7 @@
   "Electronics","Automotive","Industrial and Manafacturing Solutions","Other"],
     "capacity": [600,1350],
     "function": "Lifts",
-    "image": "/public/productimgs/Nord Modules - Pallet Lift EU.webp"
+    "image": "/public/productimgs/23.webp"
   },
   {
     "id":24,
@@ -203,7 +187,7 @@
     "industry": ["Automotive","Other"],
     "capacity": [250],
     "function": "Lifts",
-    "image": "/public/productimgs/Nord Modules QM220, Quick Mover.webp"
+    "image": "/public/productimgs/24.webp"
   },
   {
     "id":25,
@@ -212,7 +196,7 @@
   "Electronics","Automotive","Industrial and Manafacturing Solutions","Other"],
     "capacity": [600,1350],
     "function": "Lifts",
-    "image": "/public/productimgs/ROEQ - TLR750 EU - Lift 'n' Roll.webp"
+    "image": "/public/productimgs/25.webp"
   },
   {
     "id":26,
@@ -221,7 +205,7 @@
   "Electronics","Automotive","Industrial and Manafacturing Solutions","Other"],
     "capacity": [600,1350],
     "function": "Lifts",
-    "image": "/public/productimgs/Nord Modules - Pallet Lift US.webp"
+    "image": "/public/productimgs/26.webp"
   },
   {
     "id":27,
@@ -230,7 +214,7 @@
   "Electronics","Automotive","Industrial and Manafacturing Solutions","Other"],
     "capacity": [600,1350],
     "function": "Lifts",
-    "image": "/public/productimgs/MTS TEMBO.webp"
+    "image": "/public/productimgs/27.webp"
   },
 
   {
@@ -240,7 +224,7 @@
   "Electronics","Automotive","Industrial and Manafacturing Solutions","Other"],
     "capacity": [600,1350],
     "function": "Lifts",
-    "image": "/public/productimgs/ROEQ - TML1210 EU - Pallet Lift.webp"
+    "image": "/public/productimgs/28.webp"
   },
   {
     "id":29,
@@ -249,7 +233,7 @@
   "Electronics","Automotive","Industrial and Manafacturing Solutions","Other"],
     "capacity": [600,1350],
     "function": "Lifts",
-    "image": "/public/productimgs/computech heavy-duty-lift-station.webp"
+    "image": "/public/productimgs/29.webp"
   },
   {
     "id":30,
@@ -257,7 +241,7 @@
     "industry": ["Automotive","Other"],
     "capacity": [250],
     "function": "Lifts",
-    "image": "/public/productimgs/noll noll-lifting-unit.webp"
+    "image": "/public/productimgs/38.webp"
   },
   {
     "id":31,
@@ -265,7 +249,7 @@
     "industry": ["Automotive","Other"],
     "capacity": [250],
     "function": "Lifts",
-    "image": "/public/productimgs/NONEAD - Lift Top System CB3.webp"
+    "image": "/public/productimgs/31.webp"
   },
   {
     "id":32,
@@ -273,7 +257,7 @@
     "industry": ["Automotive","Other"],
     "capacity": [250],
     "function": "Lifts",
-    "image": "/public/productimgs/ROEQ TML150.webp"
+    "image": "/public/productimgs/32.webp"
   },
   {
     "id":33,
@@ -281,23 +265,16 @@
     "industry": ["Other"],
     "capacity": [600,1350],
     "function": "Conveyors",
-    "image": "/public/productimgs/Nord Modules - PM800, Pallet Mover.webp"
+    "image": "/public/productimgs/33.webp"
   },
-  {
-    "id":35,
-    "name": "rOEQ - TLR750 EU - Lift 'n' Roll",
-    "industry": ["Other"],
-    "capacity": [600,1350],
-    "function": "Conveyors",
-    "image": "Nord Modules - PM800, Pallet Mover"
-  },
+
   {
     "id":36,
     "name": "nord Modules - PM1000, Pallet Mover",
     "industry": ["Other"],
     "capacity": [600,1350],
     "function": "Conveyors",
-    "image": "/public/productimgs/Nord Modules - PM1000, Pallet Mover.webp"
+    "image": "/public/productimgs/36.webp"
   },
   {
     "id":37,
@@ -305,7 +282,7 @@
     "industry": ["Other"],
     "capacity": [250],
     "function": "Conveyors",
-    "image": "/public/productimgs/Interroll - LCP AMR top module.webp"
+    "image": "/public/productimgs/37.webp"
   },
   {
     "id":38,
@@ -313,7 +290,7 @@
     "industry": ["Other"],
     "capacity": [600,1350],
     "function": "Conveyors",
-    "image": "/public/productimgs/hyperion pallet-handling-conveyor.webp"
+    "image": "/public/productimgs/38.webp"
   },
   {
     "id":39,
@@ -321,7 +298,7 @@
     "industry": ["Other"],
     "capacity": [250],
     "function": "Conveyors",
-    "image": "/public/productimgs/ROEQ TR125 Top Roller.webp"
+    "image": "/public/productimgs/39.webp"
   },
   {
     "id":40,
@@ -329,7 +306,7 @@
     "industry": ["Other"],
     "capacity": [250],
     "function": "Conveyors",
-    "image": "/public/productimgs/ROEQ - TR125 Auto.webp"
+    "image": "/public/productimgs/40.webp"
   },
   {
     "id":41,
@@ -337,7 +314,7 @@
     "industry": ["Other"],
     "capacity": [250],
     "function": "Conveyors",
-    "image": "/public/productimgs/olirobot dual-tote-conveyor.webp"
+    "image": "/public/productimgs/41.webp"
   },
   {
     "id":42,
@@ -345,7 +322,7 @@
     "industry": ["Other"],
     "capacity": [250],
     "function": "Conveyors",
-    "image": "/public/productimgs/MTS - ROLL CONVEYOR.webp"
+    "image": "/public/productimgs/42.webp"
   },
   {
     "id":43,
@@ -353,7 +330,7 @@
     "industry": ["Other"],
     "capacity": [250],
     "function": "Conveyors",
-    "image": "/public/productimgs/Noll - PCB Magazine Feeder.webp"
+    "image": "/public/productimgs/43.webp"
   },
   {
     "id":44,
@@ -361,7 +338,7 @@
     "industry": ["Other"],
     "capacity": [250],
     "function": "Conveyors",
-    "image": "/public/productimgs/Hyperion - Roller Conveyor for.webp"
+    "image": "/public/productimgs/44.webp"
   },
   {
     "id":45,
@@ -369,7 +346,7 @@
     "industry": ["Other"],
     "capacity": [600,1350],
     "function": "Conveyors",
-    "image": "/public/productimgs/hyperion multi-zone-conveyor.webp"
+    "image": "/public/productimgs/45.webp"
   },
   {
     "id":46,
@@ -377,7 +354,7 @@
     "industry": ["Other"],
     "capacity": [250],
     "function": "Conveyors",
-    "image": "/public/productimgs/NONEAD - Telescopic Fork Orbital Mobile Cobot.webp"
+    "image": "/public/productimgs/46.webp"
   },
   {
     "id":47,
@@ -393,7 +370,7 @@
     "industry": ["Other"],
     "capacity": [600,1350],
     "function": "Conveyors",
-    "image": "/public/productimgs/ROEQ - TR500 Auto.webp"
+    "image": "/public/productimgs/48.webp"
   },
   {
     "id":49,
@@ -401,7 +378,7 @@
     "industry": ["Other"],
     "capacity": [600,1350],
     "function": "Conveyors",
-    "image": "/public/productimgs/ROEQ - TR1000 Auto.webp"
+    "image": "/public/productimgs/49.webp"
   },
   {
     "id":50,
@@ -409,7 +386,7 @@
     "industry": ["Other"],
     "capacity": [600,1350],
     "function": "Conveyors",
-    "image": "/public/productimgs/EsyPro - Esyair Mobile Cart.webp"
+    "image": "/public/productimgs/50.webp"
   },
   {
     "id":96,
@@ -417,7 +394,7 @@
     "industry": ["Other"],
     "capacity": [600,1350],
     "function": "Conveyors",
-    "image": "/public/productimgs/ROEQ - TR1000.webp"
+    "image": "/public/productimgs/96.webp"
   },
 
 
