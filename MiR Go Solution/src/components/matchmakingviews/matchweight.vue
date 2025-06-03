@@ -58,7 +58,11 @@ const weightImages = {
 
       <!-- Don't know option -->
       <button @click="selectWeight(null)">
-        <div class="skipbtn">Skip >></div>
+        <div class="skipbtn">Skip
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="white" xmlns="http://www.w3.org/2000/svg">
+            <polygon points="8,4 16,12 8,20" />
+          </svg>
+        </div>
       </button>
     </div>
   </div>
@@ -117,7 +121,7 @@ button {
   display: flex;
   width: 20vw;
   height: 10vw;
-  background-color: rgb(0, 48, 135, 0.75);
+  background-color: rgb(255, 255, 255);
 }
 
 button:hover {
@@ -152,6 +156,7 @@ button > .skipbtn{
   justify-content: center;
   align-items: center;
   color: white;
+  background-color: #00000080;
   font-family: 'Open Sans', sans-serif;
   font-size: 22px;
 }

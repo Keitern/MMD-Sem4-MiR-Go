@@ -35,7 +35,7 @@ const industryImages = {
   "Energy, Power and Safety": '/productimgs/industrierenergi.webp',
   "Industrial and Manafacturing Solutions": '/productimgs/industrierindustrier.webp',
   "Logistics and Third party logistics": '/productimgs/industrierlogistik.webp',
-  Other: '/productimgs/0.webp',
+  Other: '/productimgs/other.webp',
 }
 </script>
 

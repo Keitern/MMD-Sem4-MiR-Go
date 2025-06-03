@@ -64,14 +64,25 @@ const functionImages = {
         v-for="func in availableFunctions"
         :key="func"
         @click="select(func)"
-        :class="{ unknown: func === 'I don’t know' }"
+        :class="{ unknown: func === 'I don’t know ' }"
         :style="{
           backgroundImage: `url(${functionImages[func] || ''})`,
           backgroundSize: 'cover',
-          backgroundPosition: 'center',
-        }"
-      >
+          backgroundPosition: 'center', 
+        }" >
+          <div style="display: flex; align-items: center;">
         <div>{{ func }}</div>
+        <template v-if="func === 'I don’t know'">
+          <svg
+            width="18"
+            height="18"
+            viewBox="0 0 24 24"
+            fill="white"
+            xmlns="http://www.w3.org/2000/svg">
+            <polygon points="8,4 16,12 8,20" />
+          </svg>
+        </template>
+      </div>
       </button>
     </div>
   </div>
@@ -151,6 +162,10 @@ button > div {
 
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
+}
+
+button > div > div{
+  color: white;
 }
 
 button.unknown {

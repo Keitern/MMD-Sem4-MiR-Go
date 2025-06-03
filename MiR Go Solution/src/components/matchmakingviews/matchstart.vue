@@ -10,8 +10,10 @@
     <h3> Tell us a little bit about the work you want completed, 
       <br>and we will find the best solutions for your needs </h3>
     <!-- when button is clicked, emit 'next' to signal the parent (mirgo) to go next -->
-    <button @click="$emit('next')">Start Matching
-      <div> > </div>
+    <button @click="$emit('next')">Start Matching 
+      <div> 
+        <svg width="28" height="28" viewBox="0 0 24 24"  xmlns="http://www.w3.org/2000/svg"> <polygon points="8,4 16,12 8,20" /> </svg> 
+      </div>
     </button>
   </div>
   <div class="videowrapper">
@@ -73,8 +75,8 @@ button {
   flex-direction: row;
 }
 
-button > div{
-  color: #72C7E7;
+button > div > svg{
+  fill: #72C7E7;
 }
 
 button:hover{
@@ -82,8 +84,8 @@ button:hover{
   transition: 0.2s;
 }
 
-button:hover > div{
-  color:#56A0D3;
+button:hover > div > svg{
+  fill:#56A0D3;
   transition: 0.2s;
   transform: translateX(6px);
 }
