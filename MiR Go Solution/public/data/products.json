@@ -359,10 +359,10 @@
   {
     "id":47,
     "name": "TruPhysics - TruLifter Mobile ",
-    "industry": ["Other"],
+    "industry": ["Logistics and Third party logistics"],
     "capacity": [250],
     "function": "Conveyors",
-    "image": "/public/productimgs/TruPhysics - TruLifter Mobile.webp"
+    "image": "/public/productimgs/47.webp"
   },
   {
     "id":48,
@@ -396,6 +396,8 @@
     "function": "Conveyors",
     "image": "/public/productimgs/96.webp"
   },
+
+
 
 
 
@@ -622,7 +624,7 @@
     "industry": ["Logistics and Third party logistics", "Industrial and Manafacturing Solutions", "Other"],
     "capacity": [600, 1350],
     "function": "Stations",
-    "image": "/public/productimgs/.webp"
+    "image": "/public/productimgs/78.webp"
   },
   {
     "id": 79,

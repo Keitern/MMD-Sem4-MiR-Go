@@ -109,9 +109,10 @@ const filteredProducts = computed(() => {
 }
 
 .product-card h3{
-  color: rgb(0, 0, 0); 
+  color: rgb(0, 48, 135); 
   font-weight: 600;
   background-color: rgba(255, 255, 255, 0.5); /* Black background initially */
+  border-top: solid 1px rgba(0, 48, 135, 0.167);
   width: 100%;
   height: fit-content;
   padding: 1rem;
