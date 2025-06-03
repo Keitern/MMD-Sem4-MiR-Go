@@ -236,7 +236,7 @@ const modules = ref([
   border: 1px solid #ddd;
 }
 
-/* .match-container-scrollable {
+.match-container-scrollable {
   max-height: 100%;
   max-width: 100%;
   overflow-y: auto;
