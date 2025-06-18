@@ -6,7 +6,7 @@
     "industry": ["Healthcare"],
     "capacity": [250,600,1350],
     "function": "Disinfection",
-    "image": "/public/productimgs/0.webp"
+    "image": "/productimgs/0.webp"
   },
 
   {
@@ -15,7 +15,7 @@
     "industry": ["Electronics","Other"],
     "capacity": [250],
     "function": "Shelves",
-    "image": "/public/productimgs/1.webp"
+    "image": "/productimgs/1.webp"
   },
 
   {
@@ -24,7 +24,7 @@
     "industry": ["Electronics","Other"],
     "capacity": [250],
     "function": "Shelves",
-    "image": "/public/productimgs/2.webp"
+    "image": "/productimgs/2.webp"
   },
   {
     "id":3,
@@ -32,7 +32,7 @@
     "industry": ["Electronics","Other"],
     "capacity": [250],
     "function": "Shelves",
-    "image": "/public/productimgs/3.webp"
+    "image": "/productimgs/3.webp"
   },
   {
     "id":4,
@@ -40,7 +40,7 @@
     "industry": ["Electronics","Other"],
     "capacity": [250],
     "function": "Shelves",
-    "image": "/public/productimgs/4.webp"
+    "image": "/productimgs/4.webp"
   },
 
   {
@@ -49,7 +49,7 @@
     "industry": ["Electronics","Other"],
     "capacity": [250],
     "function": "Shelves",
-    "image": "/public/productimgs/5.webp"
+    "image": "/productimgs/5.webp"
   },
   {
     "id":6,
@@ -57,7 +57,7 @@
     "industry": ["Electronics","Other"],
     "capacity": [600,1350],
     "function": "Shelves",
-    "image": "/public/productimgs/6.webp"
+    "image": "/productimgs/6.webp"
   },
   {
     "id":7,
@@ -65,7 +65,7 @@
     "industry": ["Electronics","Other"],
     "capacity": [250],
     "function": "Shelves",
-    "image": "/public/productimgs/7.webp"
+    "image": "/productimgs/7.webp"
   },
   {
     "id":8,
@@ -73,7 +73,7 @@
     "industry": ["Electronics","Other"],
     "capacity": [250],
     "function": "Shelves",
-    "image": "/public/productimgs/8.webp"
+    "image": "/productimgs/8.webp"
   },
   {
     "id":9,
@@ -81,7 +81,7 @@
     "industry": ["Electronics","Other"],
     "capacity": [250],
     "function": "Shelves",
-    "image": "/public/productimgs/9.webp"
+    "image": "/productimgs/9.webp"
   },
 
   {
@@ -90,7 +90,7 @@
     "industry": ["Other","Electronics"],
     "capacity": [250],
     "function": "Shelves",
-    "image": "/public/productimgs/12.webp"
+    "image": "/productimgs/12.webp"
   },
   {
     "id":13,
@@ -98,7 +98,7 @@
     "industry": ["Other"],
     "capacity": [250],
     "function": "Anchoring Devices",
-    "image": "/public/productimgs/13.webp"
+    "image": "/productimgs/13.webp"
   },
   {
     "id":14,
@@ -106,7 +106,7 @@
     "industry": ["Other"],
     "capacity": [250],
     "function": "Anchoring Devices",
-    "image": "/public/productimgs/14.webp"
+    "image": "/productimgs/14.webp"
   },
   {
     "id":15,
@@ -114,7 +114,7 @@
     "industry": ["Other"],
     "capacity": [250],
     "function": "Anchoring Devices",
-    "image": "/public/productimgs/15.webp"
+    "image": "/productimgs/15.webp"
   },
   {
     "id":16,
@@ -122,7 +122,7 @@
     "industry": ["Automotive","Other"],
     "capacity": [600],
     "function": "Anchoring Devices",
-    "image": "/public/productimgs/16.webp"
+    "image": "/productimgs/16.webp"
   },
   {
     "id":17,
@@ -130,7 +130,7 @@
     "industry": ["Other"],
     "capacity": [250],
     "function": "Anchoring Devices",
-    "image": "/public/productimgs/17.webp"
+    "image": "/productimgs/17.webp"
   },
   {
     "id":18,
@@ -138,7 +138,7 @@
     "industry": ["Other"],
     "capacity": [250],
     "function": "Anchoring Devices",
-    "image": "/public/productimgs/18.webp"
+    "image": "/productimgs/18.webp"
   },
   {
     "id":19,
@@ -146,7 +146,7 @@
     "industry": ["Other"],
     "capacity": [1350],
     "function": "Anchoring Devices",
-    "image": "/public/productimgs/19.webp"
+    "image": "/productimgs/19.webp"
   },
   {
     "id":20,
@@ -154,7 +154,7 @@
     "industry": ["Other"],
     "capacity": [250],
     "function": "Anchoring Devices",
-    "image": "/public/productimgs/20.webp"
+    "image": "/productimgs/20.webp"
   },
   {
     "id":21,
@@ -162,7 +162,7 @@
     "industry": ["Electronics","Other"],
     "capacity": [250],
     "function": "Anchoring Devices",
-    "image": "/public/productimgs/21.webp"
+    "image": "/productimgs/21.webp"
   },
   {
     "id":22,
@@ -170,7 +170,7 @@
     "industry": ["Automotive","Other"],
     "capacity": [250],
     "function": "Lifts",
-    "image": "/public/productimgs/22.webp"
+    "image": "/productimgs/22.webp"
   },
   {
     "id":23,
@@ -179,7 +179,7 @@
   "Electronics","Automotive","Industrial and Manafacturing Solutions","Other"],
     "capacity": [600,1350],
     "function": "Lifts",
-    "image": "/public/productimgs/23.webp"
+    "image": "/productimgs/23.webp"
   },
   {
     "id":24,
@@ -187,7 +187,7 @@
     "industry": ["Automotive","Other"],
     "capacity": [250],
     "function": "Lifts",
-    "image": "/public/productimgs/24.webp"
+    "image": "/productimgs/24.webp"
   },
   {
     "id":25,
@@ -196,7 +196,7 @@
   "Electronics","Automotive","Industrial and Manafacturing Solutions","Other"],
     "capacity": [600,1350],
     "function": "Lifts",
-    "image": "/public/productimgs/25.webp"
+    "image": "/productimgs/25.webp"
   },
   {
     "id":26,
@@ -205,7 +205,7 @@
   "Electronics","Automotive","Industrial and Manafacturing Solutions","Other"],
     "capacity": [600,1350],
     "function": "Lifts",
-    "image": "/public/productimgs/26.webp"
+    "image": "/productimgs/26.webp"
   },
   {
     "id":27,
@@ -214,7 +214,7 @@
   "Electronics","Automotive","Industrial and Manafacturing Solutions","Other"],
     "capacity": [600,1350],
     "function": "Lifts",
-    "image": "/public/productimgs/27.webp"
+    "image": "/productimgs/27.webp"
   },
 
   {
@@ -224,7 +224,7 @@
   "Electronics","Automotive","Industrial and Manafacturing Solutions","Other"],
     "capacity": [600,1350],
     "function": "Lifts",
-    "image": "/public/productimgs/28.webp"
+    "image": "/productimgs/28.webp"
   },
   {
     "id":29,
@@ -233,7 +233,7 @@
   "Electronics","Automotive","Industrial and Manafacturing Solutions","Other"],
     "capacity": [600,1350],
     "function": "Lifts",
-    "image": "/public/productimgs/29.webp"
+    "image": "/productimgs/29.webp"
   },
   {
     "id":30,
@@ -241,7 +241,7 @@
     "industry": ["Automotive","Other"],
     "capacity": [250],
     "function": "Lifts",
-    "image": "/public/productimgs/38.webp"
+    "image": "/productimgs/38.webp"
   },
   {
     "id":31,
@@ -249,7 +249,7 @@
     "industry": ["Automotive","Other"],
     "capacity": [250],
     "function": "Lifts",
-    "image": "/public/productimgs/31.webp"
+    "image": "/productimgs/31.webp"
   },
   {
     "id":32,
@@ -257,7 +257,7 @@
     "industry": ["Automotive","Other"],
     "capacity": [250],
     "function": "Lifts",
-    "image": "/public/productimgs/32.webp"
+    "image": "/productimgs/32.webp"
   },
   {
     "id":33,
@@ -265,7 +265,7 @@
     "industry": ["Other"],
     "capacity": [600,1350],
     "function": "Conveyors",
-    "image": "/public/productimgs/33.webp"
+    "image": "/productimgs/33.webp"
   },
 
   {
@@ -274,7 +274,7 @@
     "industry": ["Other"],
     "capacity": [600,1350],
     "function": "Conveyors",
-    "image": "/public/productimgs/36.webp"
+    "image": "/productimgs/36.webp"
   },
   {
     "id":37,
@@ -282,7 +282,7 @@
     "industry": ["Other"],
     "capacity": [250],
     "function": "Conveyors",
-    "image": "/public/productimgs/37.webp"
+    "image": "/productimgs/37.webp"
   },
   {
     "id":38,
@@ -290,7 +290,7 @@
     "industry": ["Other"],
     "capacity": [600,1350],
     "function": "Conveyors",
-    "image": "/public/productimgs/38.webp"
+    "image": "/productimgs/38.webp"
   },
   {
     "id":39,
@@ -298,7 +298,7 @@
     "industry": ["Other"],
     "capacity": [250],
     "function": "Conveyors",
-    "image": "/public/productimgs/39.webp"
+    "image": "/productimgs/39.webp"
   },
   {
     "id":40,
@@ -306,7 +306,7 @@
     "industry": ["Other"],
     "capacity": [250],
     "function": "Conveyors",
-    "image": "/public/productimgs/40.webp"
+    "image": "/productimgs/40.webp"
   },
   {
     "id":41,
@@ -314,7 +314,7 @@
     "industry": ["Other"],
     "capacity": [250],
     "function": "Conveyors",
-    "image": "/public/productimgs/41.webp"
+    "image": "/productimgs/41.webp"
   },
   {
     "id":42,
@@ -322,7 +322,7 @@
     "industry": ["Other"],
     "capacity": [250],
     "function": "Conveyors",
-    "image": "/public/productimgs/42.webp"
+    "image": "/productimgs/42.webp"
   },
   {
     "id":43,
@@ -330,7 +330,7 @@
     "industry": ["Other"],
     "capacity": [250],
     "function": "Conveyors",
-    "image": "/public/productimgs/43.webp"
+    "image": "/productimgs/43.webp"
   },
   {
     "id":44,
@@ -338,7 +338,7 @@
     "industry": ["Other"],
     "capacity": [250],
     "function": "Conveyors",
-    "image": "/public/productimgs/44.webp"
+    "image": "/productimgs/44.webp"
   },
   {
     "id":45,
@@ -346,7 +346,7 @@
     "industry": ["Other"],
     "capacity": [600,1350],
     "function": "Conveyors",
-    "image": "/public/productimgs/45.webp"
+    "image": "/productimgs/45.webp"
   },
   {
     "id":46,
@@ -354,7 +354,7 @@
     "industry": ["Other"],
     "capacity": [250],
     "function": "Conveyors",
-    "image": "/public/productimgs/46.webp"
+    "image": "/productimgs/46.webp"
   },
   {
     "id":47,
@@ -362,7 +362,7 @@
     "industry": ["Logistics and Third party logistics"],
     "capacity": [250],
     "function": "Conveyors",
-    "image": "/public/productimgs/47.webp"
+    "image": "/productimgs/47.webp"
   },
   {
     "id":48,
@@ -370,7 +370,7 @@
     "industry": ["Other"],
     "capacity": [600,1350],
     "function": "Conveyors",
-    "image": "/public/productimgs/48.webp"
+    "image": "/productimgs/48.webp"
   },
   {
     "id":49,
@@ -378,7 +378,7 @@
     "industry": ["Other"],
     "capacity": [600,1350],
     "function": "Conveyors",
-    "image": "/public/productimgs/49.webp"
+    "image": "/productimgs/49.webp"
   },
   {
     "id":50,
@@ -386,7 +386,7 @@
     "industry": ["Other"],
     "capacity": [600,1350],
     "function": "Conveyors",
-    "image": "/public/productimgs/50.webp"
+    "image": "/productimgs/50.webp"
   },
   {
     "id":96,
@@ -394,7 +394,7 @@
     "industry": ["Other"],
     "capacity": [600,1350],
     "function": "Conveyors",
-    "image": "/public/productimgs/96.webp"
+    "image": "/productimgs/96.webp"
   },
 
 
@@ -408,7 +408,7 @@
     "industry": ["Other"],
     "capacity": [600],
     "function": "Robot Arms",
-    "image": "/public/productimgs/51.webp"
+    "image": "/productimgs/51.webp"
   },
   {
     "id": 52,
@@ -416,7 +416,7 @@
     "industry":  ["Other"],
     "capacity": [250],
     "function": "Robot Arms",
-    "image": "/public/productimgs/52.webp"
+    "image": "/productimgs/52.webp"
   },
   {
     "id": 53,
@@ -424,7 +424,7 @@
     "industry": ["Healthcare"],
     "capacity": [250, 600, 1350],
     "function": "Robot Arms",
-    "image": "/public/productimgs/53.webp"
+    "image": "/productimgs/53.webp"
   },
   {
     "id": 54,
@@ -432,7 +432,7 @@
     "industry": ["Logistics and Third party logistics"],
     "capacity": [250, 600, 1350],
     "function": "Robot Arms",
-    "image": "/public/productimgs/54.webp"
+    "image": "/productimgs/54.webp"
   },
   {
     "id": 55,
@@ -440,7 +440,7 @@
     "industry": ["Other"],
     "capacity": [250],
     "function": "Robot Arms",
-    "image": "/public/productimgs/55.webp"
+    "image": "/productimgs/55.webp"
   },
   {
     "id": 56,
@@ -448,7 +448,7 @@
     "industry": ["Logistics and Third party logistics", "Other"],
     "capacity": [250],
     "function": "Stations",
-    "image": "/public/productimgs/56.webp"
+    "image": "/productimgs/56.webp"
   },
   {
     "id": 57,
@@ -456,7 +456,7 @@
     "industry": ["Logistics and Third party logistics", "Other"],
     "capacity": [600, 1350],
     "function": "Stations",
-    "image": "/public/productimgs/57.webp"
+    "image": "/productimgs/57.webp"
   },
   {
     "id": 58,
@@ -464,7 +464,7 @@
     "industry": ["Logistics and Third party logistics", "Other"],
     "capacity": [250],
     "function": "Stations",
-    "image": "/public/productimgs/58.webp"
+    "image": "/productimgs/58.webp"
   },
   {
     "id": 59,
@@ -472,7 +472,7 @@
     "industry": ["Logistics and Third party logistics"],
     "capacity": [600, 1350],
     "function": "Stations",
-    "image": "/public/productimgs/59.webp"
+    "image": "/productimgs/59.webp"
   },
   {
     "id": 60,
@@ -480,7 +480,7 @@
     "industry": ["Logistics and Third party logistics"],
     "capacity": [600, 1350],
     "function": "Stations",
-    "image": "/public/productimgs/60.webp"
+    "image": "/productimgs/60.webp"
   },
   {
     "id": 61,
@@ -488,7 +488,7 @@
     "industry": ["Logistics and Third party logistics"],
     "capacity": [600, 1350],
     "function": "Stations",
-    "image": "/public/productimgs/61.webp"
+    "image": "/productimgs/61.webp"
   },
   {
     "id": 62,
@@ -496,7 +496,7 @@
     "industry": ["Logistics and Third party logistics"],
     "capacity": [600, 1350],
     "function": "Stations",
-    "image": "/public/productimgs/62.webp"
+    "image": "/productimgs/62.webp"
   },
   {
     "id": 63,
@@ -504,7 +504,7 @@
     "industry": ["Logistics and Third party logistics"],
     "capacity": [600, 1350],
     "function": "Stations",
-    "image": "/public/productimgs/63.webp"
+    "image": "/productimgs/63.webp"
   },
   {
     "id": 64,
@@ -512,7 +512,7 @@
     "industry": ["Logistics and Third party logistics"],
     "capacity": [600, 1350],
     "function": "Stations",
-    "image": "/public/productimgs/64.webp"
+    "image": "/productimgs/64.webp"
   },
   {
     "id": 65,
@@ -520,7 +520,7 @@
     "industry": ["Logistics and Third party logistics"],
     "capacity": [250],
     "function": "Stations",
-    "image": "/public/productimgs/65.webp"
+    "image": "/productimgs/65.webp"
   },
   {
     "id": 66,
@@ -528,7 +528,7 @@
     "industry": ["Logistics and Third party logistics"],
     "capacity": [600, 1350],
     "function": "Stations",
-    "image": "/public/productimgs/66.webp"
+    "image": "/productimgs/66.webp"
   },
   {
     "id": 67,
@@ -536,7 +536,7 @@
     "industry": ["Logistics and Third party logistics"],
     "capacity": [600, 1350],
     "function": "Stations",
-    "image": "/public/productimgs/67.webp"
+    "image": "/productimgs/67.webp"
   },
   {
     "id": 68,
@@ -544,7 +544,7 @@
     "industry": ["Logistics and Third party logistics"],
     "capacity": [600, 1350],
     "function": "Stations",
-    "image": "/public/productimgs/68.webp"
+    "image": "/productimgs/68.webp"
   },
   {
     "id": 69,
@@ -552,7 +552,7 @@
     "industry": ["Logistics and Third party logistics"],
     "capacity": [600, 1350],
     "function": "Stations",
-    "image": "/public/productimgs/69.webp"
+    "image": "/productimgs/69.webp"
   },
   {
     "id": 70,
@@ -560,7 +560,7 @@
     "industry": ["Logistics and Third party logistics"],
     "capacity": [600, 1350],
     "function": "Stations",
-    "image": "/public/productimgs/70.webp"
+    "image": "/productimgs/70.webp"
   },
   {
     "id": 71,
@@ -568,7 +568,7 @@
     "industry": ["Other"],
     "capacity": [250, 600, 1350],
     "function": "Stations",
-    "image": "/public/productimgs/71.webp"
+    "image": "/productimgs/71.webp"
   },
   {
     "id": 72,
@@ -576,7 +576,7 @@
     "industry": ["Logistics and Third party logistics"],
     "capacity": [600, 1350],
     "function": "Stations",
-    "image": "/public/productimgs/72.webp"
+    "image": "/productimgs/72.webp"
   },
   {
     "id": 73,
@@ -584,7 +584,7 @@
     "industry": ["Logistics and Third party logistics", "Industrial and Manafacturing Solutions"],
     "capacity": [600, 1350],
     "function": "Stations",
-    "image": "/public/productimgs/73.webp"
+    "image": "/productimgs/73.webp"
   },
   {
     "id": 74,
@@ -592,7 +592,7 @@
     "industry": ["Logistics and Third party logistics", "Other"],
     "capacity": [600, 1350],
     "function": "Stations",
-    "image": "/public/productimgs/74.webp"
+    "image": "/productimgs/74.webp"
   },
   {
     "id": 75,
@@ -600,7 +600,7 @@
     "industry": ["Logistics and Third party logistics", "Industrial and Manafacturing Solutions", "Other"],
     "capacity": [600, 1350],
     "function": "Stations",
-    "image": "/public/productimgs/75.webp"
+    "image": "/productimgs/75.webp"
   },
   {
     "id": 76,
@@ -608,7 +608,7 @@
     "industry": ["Logistics and Third party logistics", "Industrial and Manafacturing Solutions"],
     "capacity": [250],
     "function": "Stations",
-    "image": "/public/productimgs/76.webp"
+    "image": "/productimgs/76.webp"
   },
   {
     "id": 77,
@@ -616,7 +616,7 @@
     "industry": ["Logistics and Third party logistics", "Other"],
     "capacity": [600, 1350],
     "function": "Stations",
-    "image": "/public/productimgs/77.webp"
+    "image": "/productimgs/77.webp"
   },
   {
     "id": 78,
@@ -624,7 +624,7 @@
     "industry": ["Logistics and Third party logistics", "Industrial and Manafacturing Solutions", "Other"],
     "capacity": [600, 1350],
     "function": "Stations",
-    "image": "/public/productimgs/78.webp"
+    "image": "/productimgs/78.webp"
   },
   {
     "id": 79,
@@ -632,7 +632,7 @@
     "industry": ["Logistics and Third party logistics", "Other"],
     "capacity": [600, 1350],
     "function": "Stations",
-    "image": "/public/productimgs/79.webp"
+    "image": "/productimgs/79.webp"
   },
   {
     "id": 80,
@@ -640,7 +640,7 @@
     "industry": ["Other"],
     "capacity": [600, 1350],
     "function": "Stations",
-    "image": "/public/productimgs/80.webp"
+    "image": "/productimgs/80.webp"
   },
   {
     "id": 81,
@@ -648,7 +648,7 @@
     "industry": ["Logistics and Third party logistics", "Other"],
     "capacity": [250, 600, 1350],
     "function": "Stations",
-    "image": "/public/productimgs/81.webp"
+    "image": "/productimgs/81.webp"
   },
   {
     "id": 82,
@@ -656,7 +656,7 @@
     "industry": ["Other"],
     "capacity": [250],
     "function": "Stations",
-    "image": "/public/productimgs/82.webp"
+    "image": "/productimgs/82.webp"
   },
   {
     "id": 83,
@@ -664,7 +664,7 @@
     "industry": ["Other"],
     "capacity": [250],
     "function": "Stations",
-    "image": "/public/productimgs/83.webp"
+    "image": "/productimgs/83.webp"
   },
   {
     "id": 84,
@@ -672,7 +672,7 @@
     "industry": ["Other"],
     "capacity": [250],
     "function": "Stations",
-    "image": "/public/productimgs/84.webp"
+    "image": "/productimgs/84.webp"
   },
   {
     "id": 85,
@@ -680,7 +680,7 @@
     "industry": ["Other"],
     "capacity": [250, 600, 1350],
     "function": "Communication",
-    "image": "/public/productimgs/85.webp"
+    "image": "/productimgs/85.webp"
   },
   {
     "id": 86,
@@ -688,7 +688,7 @@
     "industry": ["Other"],
     "capacity": [250, 600, 1350],
     "function": "Communication",
-    "image": "/public/productimgs/86.webp"
+    "image": "/productimgs/86.webp"
   },
   {
     "id": 87,
@@ -696,7 +696,7 @@
     "industry": ["Other"],
     "capacity": [250, 600, 1350],
     "function": "Communication",
-    "image": "/public/productimgs/87.webp"
+    "image": "/productimgs/87.webp"
   },
   {
     "id": 88,
@@ -704,7 +704,7 @@
     "industry": ["Other"],
     "capacity": [250, 600, 1350],
     "function": "Communication",
-    "image": "/public/productimgs/88.webp"
+    "image": "/productimgs/88.webp"
   },
   {
     "id": 89,
@@ -712,7 +712,7 @@
     "industry": ["Other"],
     "capacity": [250, 600, 1350],
     "function": "Communication",
-    "image": "/public/productimgs/89.webp"
+    "image": "/productimgs/89.webp"
   },
   {
     "id": 90,
@@ -720,7 +720,7 @@
     "industry": ["Other"],
     "capacity": [250, 600, 1350],
     "function": "Communication",
-    "image": "/public/productimgs/90.webp"
+    "image": "/productimgs/90.webp"
   },
   {
     "id": 91,
@@ -728,7 +728,7 @@
     "industry": ["Other"],
     "capacity": [250, 600, 1350],
     "function": "Communication",
-    "image": "/public/productimgs/91.webp"
+    "image": "/productimgs/91.webp"
   },
   {
     "id": 92,
@@ -736,7 +736,7 @@
     "industry": ["Other"],
     "capacity": [250, 600, 1350],
     "function": "Communication",
-    "image": "/public/productimgs/92.webp"
+    "image": "/productimgs/92.webp"
   },
   {
     "id": 93,
@@ -744,7 +744,7 @@
     "industry": ["Other"],
     "capacity": [250, 600, 1350],
     "function": "Communication",
-    "image": "/public/productimgs/93.webp"
+    "image": "/productimgs/93.webp"
   },
   {
     "id": 94,
@@ -752,7 +752,7 @@
     "industry": ["Other"],
     "capacity": [250],
     "function": "Communication",
-    "image": "/public/productimgs/94.webp"
+    "image": "/productimgs/94.webp"
   },
   {
     "id": 95,
@@ -760,6 +760,6 @@
     "industry": ["Other"],
     "capacity": [250, 600, 1350],
     "function": "Communication",
-    "image": "/public/productimgs/95.webp"
+    "image": "/productimgs/95.webp"
   }
 ]

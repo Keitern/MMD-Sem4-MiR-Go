@@ -44,9 +44,9 @@ const filteredProducts = computed(() => {
 
         
       </div>
-    </div>
+      </div >
         <!-- if no results matched -->
-        <p v-if="filteredProducts.length === 0">No matching products found.</p>
+        <p class="noresults" v-if="filteredProducts.length === 0">No matching products found.</p>
       </div>
 
 </template>
@@ -165,4 +165,16 @@ button {
   cursor: pointer;
   margin-top: 1rem;
 }
+
+.noresults{
+  color: white;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 16px;
+  display: flex;
+  flex-direction: column;
+  height: 200px;
+  justify-content: center
+
+}
+
 </style>

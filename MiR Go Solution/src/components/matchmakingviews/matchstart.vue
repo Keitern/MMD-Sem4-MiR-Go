@@ -16,11 +16,11 @@
       </div>
     </button>
   </div>
-  <div class="videowrapper">
+ <!-- <div class="videowrapper">
     <div class="videoplaceholder">
       video placeholder
     </div>
-  </div>
+  </div>-->
   </div>
 </template>
 
