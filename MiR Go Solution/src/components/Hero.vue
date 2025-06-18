@@ -11,7 +11,7 @@
             
                             </div>
                             <div class="hero-link">
-                                <a href="da/din-amr-rejse">Your AMR Journey Starts Here</a>
+                                <a href='/MirGo' class="button">MirGo</a>
 
                             </div>
             
@@ -85,10 +85,16 @@ font-size: 44px;
 font-weight: 300;
 line-height: 52px;
 }
-.hero-link{
+.button{
     display: flex;
-   color: #fff;
+   color: #17d6e4;
     justify-content: flex-start;
+    font-size:16px;
+    font-weight: 600;
+    border: #effafe;
+    padding: 7px 30px 7px 30px;
+     display: inline-block;
+    
 }
 
 .hero-video{
