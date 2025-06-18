@@ -29,16 +29,16 @@ function select(func) {
 // image backgrounds
 const functionImages = {
   "Disinfection": '/productimgs/0.webp',
-  "Shelves": '/public/productimgs/1.webp',
-  "Anchoring Devices": '/public/productimgs/13.webp',
+  "Shelves": '/productimgs/1.webp',
+  "Anchoring Devices": '/productimgs/13.webp',
 
-  "Lifts": '/public/productimgs/23.webp',
-  "Conveyors": '/public/productimgs/33.webp',
-  "Robot Arms": '/public/productimgs/51.webp',
+  "Lifts": '/productimgs/23.webp',
+  "Conveyors": '/productimgs/33.webp',
+  "Robot Arms": '/productimgs/51.webp',
 
-  "Stations": '/public/productimgs/56.webp',
-  "Communication": '/public/productimgs/86.webp',
-  "I don't know": '/productimgs/0.webp',
+  "Stations": '/productimgs/56.webp',
+  "Communication": '/productimgs/86.webp',
+  "I don't know": '',
 }
 
 </script>
